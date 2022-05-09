@@ -22,7 +22,7 @@ body header nav:first-child {
 body header nav:first-child .logo {
   width: 45%;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 1.9vw;
 }
@@ -93,9 +93,14 @@ body header nav:last-child {
 
 body header nav:last-child img {
   width: 15.5vw;
-  margin-right: 1.8vw;
-  margin-top: 15vh;
-  margin-bottom: 1vh;
+  height: 3px;
+  margin: 15vh 1.8vw 1vh 0;
+}
+
+body header nav:last-child .red-hover:hover {
+  background-image: url("./images/pr_bar.png");
+  width: 15.5vw;
+  height: 3px;
 }
 
 body header nav:last-child a {
@@ -122,16 +127,24 @@ body .wrapper {
 
 body .wrapper .about {
   text-align: center;
+  margin-top: 13.9vh;
 }
 
 body .wrapper .about div img {
   display: inline-block;
-  width: 25.3vw;
-  height: 36.3vh;
+  width: 20vw;
+  height: 31.2vh;
+  padding-bottom: 15.7vh;
 }
 
-body .wrapper .about {
-  margin-top: 13.9vh;
+body .wrapper .about div img:first-child {
+  width: 22vw;
+  height: 33vh;
+  margin-right: 1.5vw;
+}
+
+body .wrapper .about div img:last-child {
+  margin-left: 1vw;
 }
 
 body .wrapper .about h5 {
@@ -146,8 +159,51 @@ body .wrapper .about h2 {
   line-height: 1.6;
 }
 
+body .wrapper .about .line-red {
+  background-color: #f7adad;
+  width: 4vw;
+  height: 0.3vh;
+  margin-top: 5vh;
+}
+
 body .wrapper .about p {
-  width: 62vw;
-  margin-right: 0;
+  width: 52vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.97vw;
+  color: #999999;
+  display: block;
+  margin: auto;
+  line-height: 1.6;
+  margin-top: 6.4vh;
+  margin-bottom: 12vh;
+}
+
+body .numbers {
+  display: block;
+  background-color: #95e1d3;
+  height: 34vh;
+}
+
+body .numbers .row {
+  display: block;
+  width: 70%;
+  margin: auto;
+  font-size: 0;
+}
+
+body .numbers .row div {
+  display: inline-block;
+  color: white;
+}
+
+body .numbers .row div h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.7vw;
+  font-weight: bold;
+}
+
+body .numbers .row div p {
+  font-size: 0.9vw;
+  font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
