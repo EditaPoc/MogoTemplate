@@ -1,0 +1,153 @@
+body {
+  font-family: "Kaushan Script", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body header {
+  background-image: url("./images/eagle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+body header nav:first-child {
+  display: block;
+  font-size: 0;
+  margin: 0 auto 15vh auto;
+  width: 70%;
+  padding-top: 3vh;
+}
+
+body header nav:first-child .logo {
+  width: 45%;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.9vw;
+}
+
+body header nav:first-child a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+body header nav:first-child ul {
+  width: 52%;
+  display: inline-block;
+}
+
+body header nav:first-child ul li {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  width: 14%;
+  font-size: 0.8vw;
+}
+
+body header nav:first-child ul li:first-child:hover {
+  color: #fce38a;
+  -webkit-text-decoration: underline 2px solid #fce38a;
+          text-decoration: underline 2px solid #fce38a;
+}
+
+body header h3 {
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  font-size: 2.5vw;
+  margin-bottom: 4vh;
+}
+
+body header h1 {
+  font-size: 5.5vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+body header .line {
+  display: block;
+  margin: auto;
+  width: 3.9vw;
+  height: 0.3vh;
+  margin-top: 9.7vh;
+  margin-bottom: 6.2vh;
+}
+
+body header input {
+  padding: 2.2vh 2vw;
+  background-color: #efc888;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+}
+
+body header nav:last-child {
+  width: 70%;
+  display: block;
+  margin: auto;
+  font-size: 0;
+}
+
+body header nav:last-child img {
+  width: 15.5vw;
+  margin-right: 1.8vw;
+  margin-top: 15vh;
+  margin-bottom: 1vh;
+}
+
+body header nav:last-child a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding-bottom: 2.7vh;
+}
+
+body header nav:last-child a h4 {
+  font-size: 0.9vw;
+}
+
+body header nav:last-child a h4 span {
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+body .wrapper {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+body .wrapper .about {
+  text-align: center;
+}
+
+body .wrapper .about div img {
+  display: inline-block;
+  width: 25.3vw;
+  height: 36.3vh;
+}
+
+body .wrapper .about {
+  margin-top: 13.9vh;
+}
+
+body .wrapper .about h5 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.56vw;
+}
+
+body .wrapper .about h2 {
+  font-size: 1.95vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+body .wrapper .about p {
+  width: 62vw;
+  margin-right: 0;
+}
+/*# sourceMappingURL=style.css.map */

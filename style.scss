@@ -1,0 +1,163 @@
+body {
+    font-family: "Kaushan Script", cursive;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+
+
+header {
+    background-image: url("./images/eagle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-size: 100% 100%;
+    // width: 100vw;
+    // height: 100vh;
+    color: white;
+
+nav:first-child {
+    display: block;
+    font-size: 0;
+    margin: 0 auto 15vh auto;
+    width: 70%;
+    padding-top:3vh;
+
+    .logo {
+      width: 45%;
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold; 
+      font-size: 1.9vw;
+    }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            color: white;
+        }
+
+    ul {
+      width: 52%;
+      display: inline-block;
+
+      li {
+        display: inline-block;
+        box-sizing: border-box;
+        text-align: center;
+        width: 14%;
+        font-size: 0.8vw;
+    }
+
+    li:first-child:hover {
+        color: #fce38a;
+        text-decoration: underline 2px solid #fce38a;
+    }
+   }
+ }
+
+ h3 {
+    font-family: "Kaushan Script", cursive;
+    text-align: center;
+    font-size: 2.5vw;
+    margin-bottom: 4vh;
+    
+ }
+
+ h1 {
+     font-size: 5.5vw;
+     font-weight: bold;
+     text-align: center;
+    //  letter-spacing: 3px;
+ }
+
+ .line {
+     display: block;
+     margin: auto;
+     width: 3.9vw;
+     height: 0.3vh;
+     margin-top: 9.7vh;
+     margin-bottom: 6.2vh;
+ }
+
+ input {
+     padding: 2.2vh 2vw;
+     background-color: #efc888;
+     border: 2px solid #ffffff;
+     color: #ffffff;
+     display: block;
+     margin: auto;
+    //  width: 10.48vw;
+    //  height: 5.7vh;
+
+ }
+nav:last-child {
+    width: 70%;
+    display: block;
+    margin: auto;
+    font-size: 0;
+
+    img {
+        width: 15.5vw;
+        margin-right: 1.8vw;
+        margin-top: 15vh;
+        margin-bottom: 1vh;
+    }
+
+    // img:first-child:hover {
+    //     background-color: red;
+    // }
+
+    a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding-bottom: 2.7vh;
+
+        h4 {
+            font-size: 0.9vw;
+            
+            span {
+                font-size: 1.3vw;
+                font-weight: bold;
+            }
+        }
+    }
+}
+ 
+}
+
+.wrapper{
+    width: 75%;
+    display: block;
+    margin: auto;
+
+    .about {
+        text-align: center;
+
+        div img {
+            display: inline-block;
+            width: 25.3vw;
+            height: 36.3vh;
+        }
+
+    }
+
+    .about {
+        margin-top: 13.9vh;
+
+        h5 {
+            font-family: "Kaushan Script", cursive; 
+            font-size: 1.56vw; 
+        }
+
+        h2 {
+            font-size: 1.95vw;
+            font-family: "Montserrat", sans-serif;
+            font-weight: bold;
+            line-height: 1.6;
+        }
+
+        p {
+            width: 62vw;
+            margin-right: 0;
+        }
+    }
+}
+}
