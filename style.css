@@ -194,6 +194,13 @@ body .numbers .row {
 body .numbers .row div {
   display: inline-block;
   color: white;
+  width: 14%;
+  text-align: center;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  padding-right: 1.6vw;
+  padding-left: 1.6vw;
+  border-right: 2px solid white;
 }
 
 body .numbers .row div h6 {
@@ -203,7 +210,7 @@ body .numbers .row div h6 {
 }
 
 body .numbers .row div p {
-  font-size: 0.9vw;
+  font-size: 0.7vw;
   font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
