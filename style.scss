@@ -131,28 +131,28 @@ body {
 
       div img {
         display: inline-block;
-        width: 20vw;
-        height: 31.2vh;
-        padding-bottom: 15.7vh;
+        width: 20.2vw;
+        height: 27.03vh;
+        padding-bottom: 10.63vh;
       }
 
       div img:first-child {
         width: 22vw;
         height: 33vh;
-        margin-right: 1.5vw;
+        margin-right: 1.3vw;
       }
 
       div img:last-child {
-        margin-left: 1vw;
+        margin-left: 1.15vw;
       }
 
       h5 {
         font-family: "Kaushan Script", cursive;
-        font-size: 1.56vw;
+        font-size: 1.25vw;
       }
 
       h2 {
-        font-size: 1.95vw;
+        font-size: 1.56vw;
         font-family: "Montserrat", sans-serif;
         font-weight: bold;
         line-height: 1.6;
@@ -162,7 +162,7 @@ body {
         background-color: #f7adad;
         width: 4vw;
         height: 0.3vh;
-        margin-top: 5vh;
+        margin-top: 4.02vh;
       }
 
       p {
@@ -173,8 +173,8 @@ body {
         display: block;
         margin: auto;
         line-height: 1.6;
-        margin-top: 6.4vh;
-        margin-bottom: 12vh;
+        margin-top: 3.72vh;
+        margin-bottom: 8.98vh;
       }
     }
   }
@@ -182,14 +182,27 @@ body {
   .numbers {
     display: block;
     background-color: #95e1d3;
-    height: 34vh;
+    height: 28vh;
+    margin-bottom: 11.24vh;
+    position: relative;
 
     .row {
         display: block;
         width: 70%;
-        margin: auto;
         font-size: 0;
-        
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-60%, -50%);
+
+        .vertical {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          border-left: 1px solid rgba(255, 255, 255, 0.2);
+          height: 271px;
+          width: 1px;
+        }
     }
 
     .row div {
@@ -197,22 +210,23 @@ body {
       color: white;
       width: 14%;
       text-align: center;
-      transform: translateY(100%);
-      padding-right: 1.6vw;
-      padding-left: 1.6vw;
-      border-right: 2px solid white;
+      padding: 0 1.6vw 0 1.6vw;
+      // border-right: 2px solid rgba(255, 255, 255, 0.2);
 
       h6 {
         font-family: "Montserrat", sans-serif;
-        font-size: 4.7vw;
+        font-size:  3.75vw;
         font-weight: bold;
-       
+        margin-bottom: 3.1vh;
       }
 
       p {
-          font-size: 0.7vw;
+          font-size: 0.74vw;
           font-family: "Montserrat", sans-serif;
       }
     }
+    // .row div:first-child {
+    //   border-left: 2px solid rgba(255, 255, 255, 0.2);
+    // }
   }
 }
