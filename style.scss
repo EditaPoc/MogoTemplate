@@ -44,14 +44,14 @@ body {
           font-size: 0.65vw;
         }
 
-        li:first-child:hover {
+        li:hover {
           color: #fce38a;
           text-decoration: underline 2px solid #fce38a;
         }
       }
     }
 
-    h3 {
+    h2 {
       font-family: "Kaushan Script", cursive;
       text-align: center;
       font-size: 3.75vw;
@@ -83,6 +83,10 @@ body {
       margin: auto;
       width: 8.38vw;
       height: 4.3vh;
+    }
+
+    input:hover {
+      background-color: #fce38a;
     }
     nav:last-child {
       width: 70%;
@@ -211,7 +215,6 @@ body {
       width: 14%;
       text-align: center;
       padding: 0 1.6vw 0 1.6vw;
-      // border-right: 2px solid rgba(255, 255, 255, 0.2);
 
       h6 {
         font-family: "Montserrat", sans-serif;
@@ -225,8 +228,79 @@ body {
           font-family: "Montserrat", sans-serif;
       }
     }
-    // .row div:first-child {
-    //   border-left: 2px solid rgba(255, 255, 255, 0.2);
-    // }
   }
-}
+
+  
+    .services {
+      text-align: center;
+      margin-top: 11.5vh;
+      margin-bottom: 11.5vh;
+      // height: 50vh;
+
+      h5 {
+        font-family: "Kaushan Script", cursive;
+        font-size: 1.25vw;
+      }
+
+      h2 {
+        font-size: 1.56vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        line-height: 1.6;
+        margin: 1.1vh 0 4.2vh 0;
+      }
+
+      .line-red {
+        display: block;
+        margin: auto;
+        background-color: #f7adad;
+        width: 4vw;
+        height: 0.3vh;
+        margin-top: 4vh;
+        margin-bottom: 6.8vh;
+      }
+
+      div {
+        display: inline-block;
+        text-align: left;
+
+        h3 {
+          font-family: "Montserrat", sans-serif;
+          font-size: 0.73vw;
+          font-size: bold;
+          color: #333333;
+          margin-bottom: 2vh;
+          margin-top: 2vh;
+          margin-left: 1vw;
+        }
+
+        p {
+          font-family: "Roboto", sans-serif;
+          font-size: 0.7vw;
+          color: #999999;
+          line-height: 1.6;
+          margin-bottom: 3vh;
+          margin-left: 1vw;
+          width: 30vh;
+        }
+
+        .small-icon {
+          display: inline-block;
+          width: 1.7vw;
+          height: 3.3vh;
+          margin-top: 2vh;
+          margin-right: 1vw;
+          margin-left: 2vw;
+          vertical-align: top;
+        }
+      }
+
+      .horizontal-line {
+        width: 85%;
+        height: 1px;
+        border-bottom: 1px solid #f2f2f2;
+        margin-bottom: 2vh;
+      }
+    }
+  }
+
