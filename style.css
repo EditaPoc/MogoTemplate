@@ -7,7 +7,8 @@ body {
 body header {
   background-image: url("./images/eagle.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  height: 100vh;
   color: white;
 }
 
@@ -44,7 +45,7 @@ body header nav:first-child ul li {
           box-sizing: border-box;
   text-align: center;
   width: 14%;
-  font-size: 0.8vw;
+  font-size: 0.65vw;
 }
 
 body header nav:first-child ul li:first-child:hover {
@@ -56,12 +57,12 @@ body header nav:first-child ul li:first-child:hover {
 body header h3 {
   font-family: "Kaushan Script", cursive;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 3.75vw;
   margin-bottom: 4vh;
 }
 
 body header h1 {
-  font-size: 5.5vw;
+  font-size: 7.8vw;
   font-weight: bold;
   text-align: center;
 }
@@ -69,19 +70,21 @@ body header h1 {
 body header .line {
   display: block;
   margin: auto;
-  width: 3.9vw;
+  width: 3.125vw;
   height: 0.3vh;
-  margin-top: 9.7vh;
-  margin-bottom: 6.2vh;
+  margin-top: 5.1vh;
+  margin-bottom: 5.1vh;
 }
 
 body header input {
-  padding: 2.2vh 2vw;
   background-color: #efc888;
   border: 2px solid #ffffff;
   color: #ffffff;
+  font-size: 0.72vw;
   display: block;
   margin: auto;
+  width: 8.38vw;
+  height: 4.3vh;
 }
 
 body header nav:last-child {

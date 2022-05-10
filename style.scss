@@ -6,10 +6,10 @@ body {
   header {
     background-image: url("./images/eagle.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    // background-size: 100% 100%;
+    // background-size: cover;
+    background-size: 100% 100%;
     // width: 100vw;
-    // height: 100vh;
+    height: 100vh;
     color: white;
 
     nav:first-child {
@@ -41,7 +41,7 @@ body {
           box-sizing: border-box;
           text-align: center;
           width: 14%;
-          font-size: 0.8vw;
+          font-size: 0.65vw;
         }
 
         li:first-child:hover {
@@ -54,35 +54,35 @@ body {
     h3 {
       font-family: "Kaushan Script", cursive;
       text-align: center;
-      font-size: 2.5vw;
+      font-size: 3.75vw;
       margin-bottom: 4vh;
     }
 
     h1 {
-      font-size: 5.5vw;
+      font-size:  7.8vw;
       font-weight: bold;
       text-align: center;
-      //  letter-spacing: 3px;
     }
 
     .line {
       display: block;
       margin: auto;
-      width: 3.9vw;
+      width: 3.125vw;
       height: 0.3vh;
-      margin-top: 9.7vh;
-      margin-bottom: 6.2vh;
+      margin-top: 5.1vh;
+      margin-bottom: 5.1vh;
     }
 
     input {
-      padding: 2.2vh 2vw;
+      // padding: 2.2vh 2vw;
       background-color: #efc888;
       border: 2px solid #ffffff;
       color: #ffffff;
+      font-size: 0.72vw;
       display: block;
       margin: auto;
-      //  width: 10.48vw;
-      //  height: 5.7vh;
+      width: 8.38vw;
+      height: 4.3vh;
     }
     nav:last-child {
       width: 70%;
