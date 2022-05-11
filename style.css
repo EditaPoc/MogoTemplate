@@ -404,5 +404,6 @@ body .weDo .creativity div:last-child {
 body .weDo .creativity div:last-child div {
   display: inline-block;
   width: 100%;
+  border: 2px solid #999999;
 }
 /*# sourceMappingURL=style.css.map */
