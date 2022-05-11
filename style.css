@@ -45,6 +45,7 @@ body header nav:first-child ul li {
   width: 14%;
   font-size: 0.65vw;
   padding-bottom: 0.8vh;
+  cursor: pointer;
 }
 
 body header nav:first-child ul li:hover {
@@ -83,8 +84,11 @@ body header input {
   font-size: 0.72vw;
   display: block;
   margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 8vh;
   width: 8.38vw;
   height: 4.3vh;
+  cursor: pointer;
 }
 
 body header input:hover {
@@ -98,35 +102,33 @@ body header nav:last-child {
   font-size: 0;
 }
 
-body header nav:last-child img {
-  width: 14.6vw;
-  height: 2px;
-  margin: 15vh 1.8vw 1vh 0;
-  -webkit-box-shadow: inset 0 0 0 0 #f38181;
-          box-shadow: inset 0 0 0 0 #f38181;
-}
-
-body header nav:last-child img:hover {
-  -webkit-box-shadow: inset 14.69vw 0 0 0 #f38181;
-          box-shadow: inset 14.69vw 0 0 0 #f38181;
-  -webkit-transition: ease-out 0.5s;
-  transition: ease-out 0.5s;
-}
-
-body header nav:last-child a {
-  text-decoration: none;
-  color: white;
+body header nav:last-child .second-row {
   display: inline-block;
-  padding-bottom: 2.7vh;
+  background: transparent;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: 2px solid rgba(255, 255, 255, 0.6);
+  width: 14vw;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 1.2vh;
+  margin: 10vh 1.5vw 0 1.8vw;
+  cursor: pointer;
 }
 
-body header nav:last-child a h4 {
+body header nav:last-child .second-row h4 {
   font-size: 0.9vw;
 }
 
-body header nav:last-child a h4 span {
+body header nav:last-child .second-row h4 span {
   font-size: 1.3vw;
   font-weight: bold;
+}
+
+body header nav:last-child .second-row:hover {
+  border-top: 2px solid #f38181;
+  width: 14vw;
 }
 
 body .wrapper {
@@ -146,6 +148,7 @@ body .wrapper .about div img {
   height: 27.03vh;
   padding-bottom: 10.63vh;
   margin-left: 1.15vw;
+  cursor: pointer;
 }
 
 body .wrapper .about div img:hover {
@@ -303,5 +306,43 @@ body .services .horizontal-line {
   height: 1px;
   border-bottom: 1px solid #f2f2f2;
   margin-bottom: 2vh;
+}
+
+body .design {
+  background-image: url("./images/layer_mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 80vh;
+  text-align: center;
+  padding-top: 12vh;
+  margin-bottom: 12vh;
+}
+
+body .design h5 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.25vw;
+}
+
+body .design h2 {
+  font-size: 1.56vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+body .design .line-red {
+  background-color: #f7adad;
+  width: 4vw;
+  height: 0.3vh;
+  margin-top: 4.02vh;
+}
+
+body .design .phones {
+  position: absolute;
+  top: 72.5%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=style.css.map */
