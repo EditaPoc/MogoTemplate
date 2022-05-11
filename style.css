@@ -15,7 +15,7 @@ body header {
 body header nav:first-child {
   display: block;
   font-size: 0;
-  margin: 0 auto 15vh auto;
+  margin: 0 auto 12vh auto;
   width: 70%;
   padding-top: 3vh;
 }
@@ -41,17 +41,17 @@ body header nav:first-child ul {
 
 body header nav:first-child ul li {
   display: inline-block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   text-align: center;
   width: 14%;
   font-size: 0.65vw;
+  padding-bottom: 0.8vh;
 }
 
 body header nav:first-child ul li:hover {
   color: #fce38a;
   -webkit-text-decoration: underline 2px solid #fce38a;
           text-decoration: underline 2px solid #fce38a;
+  text-underline-offset: 1vh;
 }
 
 body header h2 {
@@ -99,15 +99,18 @@ body header nav:last-child {
 }
 
 body header nav:last-child img {
-  width: 15.5vw;
-  height: 3px;
+  width: 14.6vw;
+  height: 2px;
   margin: 15vh 1.8vw 1vh 0;
+  -webkit-box-shadow: inset 0 0 0 0 #f38181;
+          box-shadow: inset 0 0 0 0 #f38181;
 }
 
-body header nav:last-child .red-hover:hover {
-  background-image: url("./images/pr_bar.png");
-  width: 15.5vw;
-  height: 3px;
+body header nav:last-child img:hover {
+  -webkit-box-shadow: inset 14.69vw 0 0 0 #f38181;
+          box-shadow: inset 14.69vw 0 0 0 #f38181;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
 }
 
 body header nav:last-child a {
@@ -142,16 +145,13 @@ body .wrapper .about div img {
   width: 20.2vw;
   height: 27.03vh;
   padding-bottom: 10.63vh;
-}
-
-body .wrapper .about div img:first-child {
-  width: 22vw;
-  height: 33vh;
-  margin-right: 1.3vw;
-}
-
-body .wrapper .about div img:last-child {
   margin-left: 1.15vw;
+}
+
+body .wrapper .about div img:hover {
+  content: url("./images/super_team.png");
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
 }
 
 body .wrapper .about h5 {
