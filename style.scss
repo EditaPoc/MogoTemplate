@@ -356,5 +356,68 @@ body {
       }
 
     }
+
+    .weDo {
+      height: 80vh;
+      text-align: center;
+      padding-top: 12vh;
+      margin-bottom: 12vh;
+
+      h5 {
+        font-family: "Kaushan Script", cursive;
+        font-size: 1.25vw;
+      }
+
+      h2 {
+        font-size: 1.56vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        line-height: 1.6;
+      }
+
+      .line-red {
+        background-color: #f7adad;
+        width: 4vw;
+        height: 0.3vh;
+        margin-top: 4.02vh;
+      }
+
+      p {
+        width: 52vw;
+        font-family: "Roboto", sans-serif;
+        font-size: 0.97vw;
+        color: #999999;
+        display: block;
+        margin: auto;
+        line-height: 1.6;
+        margin-top: 3.72vh;
+        margin-bottom: 8.98vh;
+      }
+      
+      .creativity {
+        // display: block;
+        // font-size: 0;
+
+        div {
+          display: inline-block;
+        }
+        div:first-child {
+          width: 31vw; 
+        }
+        .wall {
+          width: 31vw;
+          height: 40.97vh;
+        }
+        div:last-child {
+          width: 32vw;
+        }
+        div:last-child div{
+          display: inline-block;
+          width: 100%;
+          
+        }
+
+      }
+    }
   }
 

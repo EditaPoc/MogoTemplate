@@ -345,4 +345,64 @@ body .design .phones {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
+body .weDo {
+  height: 80vh;
+  text-align: center;
+  padding-top: 12vh;
+  margin-bottom: 12vh;
+}
+
+body .weDo h5 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.25vw;
+}
+
+body .weDo h2 {
+  font-size: 1.56vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+body .weDo .line-red {
+  background-color: #f7adad;
+  width: 4vw;
+  height: 0.3vh;
+  margin-top: 4.02vh;
+}
+
+body .weDo p {
+  width: 52vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.97vw;
+  color: #999999;
+  display: block;
+  margin: auto;
+  line-height: 1.6;
+  margin-top: 3.72vh;
+  margin-bottom: 8.98vh;
+}
+
+body .weDo .creativity div {
+  display: inline-block;
+}
+
+body .weDo .creativity div:first-child {
+  width: 31vw;
+}
+
+body .weDo .creativity .wall {
+  width: 31vw;
+  height: 40.97vh;
+}
+
+body .weDo .creativity div:last-child {
+  width: 32vw;
+}
+
+body .weDo .creativity div:last-child div {
+  display: inline-block;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
