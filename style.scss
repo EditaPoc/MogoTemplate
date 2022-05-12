@@ -2,7 +2,7 @@ body {
   font-family: "Kaushan Script", cursive;
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
-
+}
   header {
     background-image: url("./images/eagle.jpg");
     background-repeat: no-repeat;
@@ -139,15 +139,16 @@ body {
       }
     }
   }
-
-  .wrapper {
+  .about {
+    text-align: center;
+    margin-top: 13.9vh;
+  
+    .wrapper {
     width: 75%;
     display: block;
     margin: auto;
 
-    .about {
-      text-align: center;
-      margin-top: 13.9vh;
+    
 
       div img {
         display: inline-block;
@@ -247,7 +248,12 @@ body {
     text-align: center;
     margin-top: 11.5vh;
     margin-bottom: 11.5vh;
-    // height: 50vh;
+
+    .wrapper {
+      width: 75%;
+      display: block;
+      margin: auto;
+  
 
     h5 {
       font-family: "Kaushan Script", cursive;
@@ -314,6 +320,7 @@ body {
       margin-bottom: 2vh;
     }
   }
+}
 
   .design {
     background-image: url("./images/layer_mountains.jpg");
@@ -452,8 +459,10 @@ body {
             width: 29vw;
             margin-bottom: 0;
             margin-top: 0;
-          }
-        }
+            height: 132px;
+            overflow: hidden;
+          } 
+      }
 
         div:nth-child(3) {
           margin: 12px 0 12px 0;
@@ -461,6 +470,7 @@ body {
       }
     }
   }
+
   .slides {
     background-color: #f8f8f8;
     height: 33vh;
@@ -531,4 +541,126 @@ body {
       top: 50%;
     }
   }
-}
+
+  .ourTeam {
+    text-align: center;
+
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
+    }
+
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      line-height: 1.6;
+    }
+
+    .line-red {
+      background-color: #f7adad;
+      width: 4vw;
+      height: 0.3vh;
+      margin-top: 4.02vh;
+    }
+
+    p {
+      width: 52vw;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.97vw;
+      color: #999999;
+      display: block;
+      margin: auto;
+      line-height: 1.6;
+      margin-top: 3.72vh;
+      margin-bottom: 8.98vh;
+    }
+   
+    
+    .member {
+      display: inline-block;
+      width: 30%;
+
+      h3 {
+        margin-top: 27px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        // font-weight: bold;
+        color: #333333;
+        letter-spacing: 1px;
+
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: lighter;
+        font-style: italic;
+        margin-top: 10px;
+        width: 150px;
+      }
+    }
+
+    .member img {
+      cursor: pointer;
+
+    }
+
+    .member img:hover {
+      content: url("./images/Rectangle-4.png");
+      transform: scale(1.08);
+
+      // rgba(241,224,145, 0.6) to rgba(234,140,138, 0.6)
+
+  }
+  
+  }
+
+  .logos {
+    height: 251px;
+    background: #f8f8f8;
+    margin-bottom: 12vh;
+
+    img {
+      display: block;
+      margin: auto;
+      transform: translateY(50%);
+    }
+  }
+
+  .ourWorks {
+    height: 750px;
+    text-align: center;
+
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
+    }
+
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      line-height: 1.6;
+    }
+
+    .line-red {
+      background-color: #f7adad;
+      width: 4vw;
+      height: 0.3vh;
+      margin-top: 4.02vh;
+    }
+
+    p {
+      width: 52vw;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.97vw;
+      color: #999999;
+      display: block;
+      margin: auto;
+      line-height: 1.6;
+      margin-top: 3.72vh;
+      margin-bottom: 8.98vh;
+    }
+  }
+
