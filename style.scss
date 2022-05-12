@@ -61,7 +61,7 @@ body {
     }
 
     h1 {
-      font-size:  7.8vw;
+      font-size: 7.8vw;
       font-weight: bold;
       text-align: center;
     }
@@ -123,20 +123,19 @@ body {
         }
       }
 
-    //   .second-row:after {
-    //     position: absolute;
-    //     left: 20px;
-    //     bottom: 0;
-    //     content: '';
-    //     height: 5px;
-    //     border-top: 2px solid #f38181;
-    //     transition:  0.5s linear; 
-    // }
-  
+      //   .second-row:after {
+      //     position: absolute;
+      //     left: 20px;
+      //     bottom: 0;
+      //     content: '';
+      //     height: 5px;
+      //     border-top: 2px solid #f38181;
+      //     transition:  0.5s linear;
+      // }
+
       .second-row:hover {
-          border-top: 2px solid #f38181;
-          width: 14vw;
-         
+        border-top: 2px solid #f38181;
+        width: 14vw;
       }
     }
   }
@@ -161,7 +160,7 @@ body {
 
       div img:hover {
         content: url("./images/super_team.png");
-        transform: scale(1.08); 
+        transform: scale(1.08);
       }
 
       h5 {
@@ -205,22 +204,22 @@ body {
     position: relative;
 
     .row {
-        display: block;
-        width: 70%;
-        font-size: 0;
+      display: block;
+      width: 70%;
+      font-size: 0;
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-60%, -50%);
+
+      .vertical {
         position: absolute;
         top: 50%;
-        left: 60%;
-        transform: translate(-60%, -50%);
-
-        .vertical {
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
-          border-left: 1px solid rgba(255, 255, 255, 0.2);
-          height: 271px;
-          width: 1px;
-        }
+        transform: translateY(-50%);
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        height: 271px;
+        width: 1px;
+      }
     }
 
     .row div {
@@ -232,241 +231,304 @@ body {
 
       h6 {
         font-family: "Montserrat", sans-serif;
-        font-size:  3.75vw;
+        font-size: 3.75vw;
         font-weight: bold;
         margin-bottom: 3.1vh;
       }
 
       p {
-          font-size: 0.74vw;
-          font-family: "Montserrat", sans-serif;
+        font-size: 0.74vw;
+        font-family: "Montserrat", sans-serif;
       }
     }
   }
 
-  
-    .services {
-      text-align: center;
-      margin-top: 11.5vh;
-      margin-bottom: 11.5vh;
-      // height: 50vh;
+  .services {
+    text-align: center;
+    margin-top: 11.5vh;
+    margin-bottom: 11.5vh;
+    // height: 50vh;
 
-      h5 {
-        font-family: "Kaushan Script", cursive;
-        font-size: 1.25vw;
-      }
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
+    }
 
-      h2 {
-        font-size: 1.56vw;
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      line-height: 1.6;
+      margin: 1.1vh 0 4.2vh 0;
+    }
+
+    .line-red {
+      display: block;
+      margin: auto;
+      background-color: #f7adad;
+      width: 4vw;
+      height: 0.3vh;
+      margin-top: 4vh;
+      margin-bottom: 6.8vh;
+    }
+
+    div {
+      display: inline-block;
+      text-align: left;
+
+      h3 {
         font-family: "Montserrat", sans-serif;
-        font-weight: bold;
-        line-height: 1.6;
-        margin: 1.1vh 0 4.2vh 0;
-      }
-
-      .line-red {
-        display: block;
-        margin: auto;
-        background-color: #f7adad;
-        width: 4vw;
-        height: 0.3vh;
-        margin-top: 4vh;
-        margin-bottom: 6.8vh;
-      }
-
-      div {
-        display: inline-block;
-        text-align: left;
-
-        h3 {
-          font-family: "Montserrat", sans-serif;
-          font-size: 0.73vw;
-          font-size: bold;
-          color: #333333;
-          margin-bottom: 2vh;
-          margin-top: 2vh;
-          margin-left: 1vw;
-        }
-
-        p {
-          font-family: "Roboto", sans-serif;
-          font-size: 0.7vw;
-          color: #999999;
-          line-height: 1.6;
-          margin-bottom: 3vh;
-          margin-left: 1vw;
-          width: 30vh;
-        }
-
-        .small-icon {
-          display: inline-block;
-          width: 1.7vw;
-          height: 3.3vh;
-          margin-top: 2vh;
-          margin-right: 1vw;
-          margin-left: 2vw;
-          vertical-align: top;
-        }
-      }
-
-      .horizontal-line {
-        width: 85%;
-        height: 1px;
-        border-bottom: 1px solid #f2f2f2;
+        font-size: 0.73vw;
+        font-size: bold;
+        color: #333333;
         margin-bottom: 2vh;
-      }
-    }
-
-    .design {
-      background-image: url("./images/layer_mountains.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      height: 80vh;
-      text-align: center;
-      padding-top: 12vh;
-      margin-bottom: 12vh;
-      
-
-      h5 {
-        font-family: "Kaushan Script", cursive;
-        font-size: 1.25vw;
-      }
-
-      h2 {
-        font-size: 1.56vw;
-        font-family: "Montserrat", sans-serif;
-        font-weight: bold;
-        line-height: 1.6;
-      }
-
-      .line-red {
-        background-color: #f7adad;
-        width: 4vw;
-        height: 0.3vh;
-        margin-top: 4.02vh;
-      }
-
-      .phones {
-        position: absolute;
-        top: 72.5%;
-        left: 55%;
-        transform: translate(-50%, -50%);
-      
-      }
-
-    }
-
-    .weDo {
-      height: 80vh;
-      text-align: center;
-      padding-top: 12vh;
-      margin-bottom: 12vh;
-
-      h5 {
-        font-family: "Kaushan Script", cursive;
-        font-size: 1.25vw;
-      }
-
-      h2 {
-        font-size: 1.56vw;
-        font-family: "Montserrat", sans-serif;
-        font-weight: bold;
-        line-height: 1.6;
-      }
-
-      .line-red {
-        background-color: #f7adad;
-        width: 4vw;
-        height: 0.3vh;
-        margin-top: 4.02vh;
+        margin-top: 2vh;
+        margin-left: 1vw;
       }
 
       p {
-        width: 52vw;
         font-family: "Roboto", sans-serif;
-        font-size: 0.97vw;
+        font-size: 0.7vw;
         color: #999999;
-        display: block;
-        margin: auto;
         line-height: 1.6;
-        margin-top: 3.72vh;
-        margin-bottom: 8.98vh;
+        margin-bottom: 3vh;
+        margin-left: 1vw;
+        width: 30vh;
       }
-      
-      .creativity {
-        font-size: 0;
-        height: 450px;
 
-        .left {
-          display: inline-block;
-          width: 40%;
-          margin-right: 5%;
-          vertical-align: top;
+      .small-icon {
+        display: inline-block;
+        width: 1.7vw;
+        height: 3.3vh;
+        margin-top: 2vh;
+        margin-right: 1vw;
+        margin-left: 2vw;
+        vertical-align: top;
+      }
+    }
 
-          img {
-            width: 100%;
-            height: 400px;
+    .horizontal-line {
+      width: 85%;
+      height: 1px;
+      border-bottom: 1px solid #f2f2f2;
+      margin-bottom: 2vh;
+    }
+  }
+
+  .design {
+    background-image: url("./images/layer_mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    text-align: center;
+    padding-top: 12vh;
+    margin-bottom: 12vh;
+
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
+    }
+
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      line-height: 1.6;
+    }
+
+    .line-red {
+      background-color: #f7adad;
+      width: 4vw;
+      height: 0.3vh;
+      margin-top: 4.02vh;
+    }
+
+    .phones {
+      position: absolute;
+      top: 72.5%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .weDo {
+    height: 80vh;
+    text-align: center;
+    padding-top: 12vh;
+    margin-bottom: 10vh;
+
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
+    }
+
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      line-height: 1.6;
+    }
+
+    .line-red {
+      background-color: #f7adad;
+      width: 4vw;
+      height: 0.3vh;
+      margin-top: 4.02vh;
+    }
+
+    p {
+      width: 52vw;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.97vw;
+      color: #999999;
+      display: block;
+      margin: auto;
+      line-height: 1.6;
+      margin-top: 3.72vh;
+      margin-bottom: 8.98vh;
+    }
+
+    .creativity {
+      font-size: 0;
+      height: 450px;
+
+      .left {
+        display: inline-block;
+        width: 40%;
+        margin-right: 5%;
+        vertical-align: top;
+
+        img {
+          width: 100%;
+          height: 400px;
+        }
+      }
+
+      .right {
+        display: inline-block;
+        width: 45%;
+        height: auto;
+        position: relative;
+
+        div {
+          border: solid 1px #999999;
+          font-size: 0;
+          text-align: left;
+
+          a,
+          h3,
+          p {
+            display: inline-block;
+            color: #333333;
+            font-size: 14px;
+            padding: 15px;
+            vertical-align: middle;
+          }
+
+          a:last-child {
+            position: absolute;
+            right: 15px;
+          }
+
+          a:last-child {
+            transform: translateY(15px);
+          }
+
+          a:nth-child(2) {
+            height: 14.5vh;
+            transform: translateY(0px);
           }
         }
 
-        .right {
-          display: inline-block;
-          width: 45%;
-          height: auto;
-          position: relative;
+        div:nth-child(2) {
+          border-top: none;
 
-          div {
-            border: solid 1px #999999;
-            font-size: 0;
-            text-align: left;
-
-            a,
-            h3,
-            p {
-              display: inline-block;
-              color: #333333;
-              font-size: 14px;
-              padding: 15px;
-              vertical-align: middle;
-            }
-
-             a:last-child {
-               position: absolute;
-               right: 15px;
-             }
-
-             a:last-child {
-                transform: translateY(15px);
-             }
-
-             a:nth-child(2) {
-              height: 14.5vh;
-              transform: translateY(0px);
-            }  
+          p {
+            padding: 15px;
+            font-style: italic;
+            font-size: 15px;
+            line-height: 1.6;
+            width: 29vw;
+            margin-bottom: 0;
+            margin-top: 0;
           }
+        }
 
-          div:nth-child(2) {
-            height: 18vh;
-            border-top: none;
-
-            p {
-              padding: 15px 0 0 15px;
-              font-style: italic;
-              font-size: 15px;
-              line-height: 1.6;
-              width: 29vw;
-              margin-bottom: 0;
-              margin-top: 0;
-            }
-          }
-
-          div:nth-child(3) {
-            margin: 12px 0 12px 0;
-
-          }
+        div:nth-child(3) {
+          margin: 12px 0 12px 0;
         }
       }
     }
   }
+  .slides {
+    background-color: #f8f8f8;
+    height: 33vh;
+    margin-bottom: 12vh;
 
+    .wrapper {
+      transform: translateY(50%);
+      text-align: center;
+      position: relative;
+    }
+
+    .center > div {
+      display: inline-block;
+
+      p {
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-weight: lighter;
+        line-height: 1.8;
+        font-size: 1.25vw;
+        color: #999999;
+        width: 38.8vw;
+        text-align: left;
+        margin-left: 3.3vw;
+        vertical-align: top;
+      }
+
+      .line-red {
+        display: inline-block;
+        background-color: #f7adad;
+        width: 3.1vw;
+        height: 0.3vh;
+        margin-top: 3vh;
+        margin-right: 0.52vw;
+      }
+
+      h5 {
+        display: inline-block;
+        font-family: "Kaushan Script", cursive;
+        font-size: 1.25vw;
+      }
+    }
+    .chat-border {
+      border: 3px solid #95e1d3;
+      padding: 45px;
+    }
+    .first {
+      text-align: left;
+      margin-left: 3.3vw;
+
+      img {
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+    }
+
+    div#left-arrow {
+      transform: rotate(90deg);
+      position: absolute;
+      left: 10%;
+      top: 50%;
+    }
+
+    div#right-arrow {
+      transform: rotate(270deg);
+      position: absolute;
+      right: 10%;
+      top: 50%;
+    }
+  }
+}

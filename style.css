@@ -350,7 +350,7 @@ body .weDo {
   height: 80vh;
   text-align: center;
   padding-top: 12vh;
-  margin-bottom: 12vh;
+  margin-bottom: 10vh;
 }
 
 body .weDo h5 {
@@ -441,12 +441,11 @@ body .weDo .creativity .right div a:nth-child(2) {
 }
 
 body .weDo .creativity .right div:nth-child(2) {
-  height: 18vh;
   border-top: none;
 }
 
 body .weDo .creativity .right div:nth-child(2) p {
-  padding: 15px 0 0 15px;
+  padding: 15px;
   font-style: italic;
   font-size: 15px;
   line-height: 1.6;
@@ -457,5 +456,81 @@ body .weDo .creativity .right div:nth-child(2) p {
 
 body .weDo .creativity .right div:nth-child(3) {
   margin: 12px 0 12px 0;
+}
+
+body .slides {
+  background-color: #f8f8f8;
+  height: 33vh;
+  margin-bottom: 12vh;
+}
+
+body .slides .wrapper {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  text-align: center;
+  position: relative;
+}
+
+body .slides .center > div {
+  display: inline-block;
+}
+
+body .slides .center > div p {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 1.8;
+  font-size: 1.25vw;
+  color: #999999;
+  width: 38.8vw;
+  text-align: left;
+  margin-left: 3.3vw;
+  vertical-align: top;
+}
+
+body .slides .center > div .line-red {
+  display: inline-block;
+  background-color: #f7adad;
+  width: 3.1vw;
+  height: 0.3vh;
+  margin-top: 3vh;
+  margin-right: 0.52vw;
+}
+
+body .slides .center > div h5 {
+  display: inline-block;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.25vw;
+}
+
+body .slides .chat-border {
+  border: 3px solid #95e1d3;
+  padding: 45px;
+}
+
+body .slides .first {
+  text-align: left;
+  margin-left: 3.3vw;
+}
+
+body .slides .first img {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+body .slides div#left-arrow {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+
+body .slides div#right-arrow {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  position: absolute;
+  right: 10%;
+  top: 50%;
 }
 /*# sourceMappingURL=style.css.map */
