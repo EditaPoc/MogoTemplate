@@ -384,26 +384,78 @@ body .weDo p {
   margin-bottom: 8.98vh;
 }
 
-body .weDo .creativity div {
+body .weDo .creativity {
+  font-size: 0;
+  height: 450px;
+}
+
+body .weDo .creativity .left {
   display: inline-block;
+  width: 40%;
+  margin-right: 5%;
+  vertical-align: top;
 }
 
-body .weDo .creativity div:first-child {
-  width: 31vw;
-}
-
-body .weDo .creativity .wall {
-  width: 31vw;
-  height: 40.97vh;
-}
-
-body .weDo .creativity div:last-child {
-  width: 32vw;
-}
-
-body .weDo .creativity div:last-child div {
-  display: inline-block;
+body .weDo .creativity .left img {
   width: 100%;
-  border: 2px solid #999999;
+  height: 400px;
+}
+
+body .weDo .creativity .right {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  position: relative;
+}
+
+body .weDo .creativity .right div {
+  border: solid 1px #999999;
+  font-size: 0;
+  text-align: left;
+}
+
+body .weDo .creativity .right div a,
+body .weDo .creativity .right div h3,
+body .weDo .creativity .right div p {
+  display: inline-block;
+  color: #333333;
+  font-size: 14px;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+body .weDo .creativity .right div a:last-child {
+  position: absolute;
+  right: 15px;
+}
+
+body .weDo .creativity .right div a:last-child {
+  -webkit-transform: translateY(15px);
+          transform: translateY(15px);
+}
+
+body .weDo .creativity .right div a:nth-child(2) {
+  height: 14.5vh;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+body .weDo .creativity .right div:nth-child(2) {
+  height: 18vh;
+  border-top: none;
+}
+
+body .weDo .creativity .right div:nth-child(2) p {
+  padding: 15px 0 0 15px;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.6;
+  width: 29vw;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+body .weDo .creativity .right div:nth-child(3) {
+  margin: 12px 0 12px 0;
 }
 /*# sourceMappingURL=style.css.map */
