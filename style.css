@@ -318,7 +318,6 @@ header nav:last-child .second-row:hover {
   background-image: url("./images/layer_mountains.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   height: 80vh;
   text-align: center;
   padding-top: 12vh;
@@ -350,12 +349,10 @@ header nav:last-child .second-row:hover {
   margin-top: 4.02vh;
 }
 
-.design .wrapper .phones {
-  position: absoute;
-  top: 72.5%;
-  left: 55%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+.design .wrapper div img {
+  display: block;
+  margin: auto;
+  margin-top: 53px;
 }
 
 .weDo {
@@ -692,6 +689,12 @@ header nav:last-child .second-row:hover {
   margin-bottom: 12vh;
 }
 
+.logos .wrapper {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
 .logos img {
   display: block;
   margin: auto;
@@ -700,30 +703,36 @@ header nav:last-child .second-row:hover {
 }
 
 .ourWorks {
-  height: 750px;
+  height: auto;
   text-align: center;
 }
 
-.ourWorks h5 {
+.ourWorks .wrapper {
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.ourWorks .wrapper h5 {
   font-family: "Kaushan Script", cursive;
   font-size: 1.25vw;
 }
 
-.ourWorks h2 {
+.ourWorks .wrapper h2 {
   font-size: 1.56vw;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.6;
 }
 
-.ourWorks .line-red {
+.ourWorks .wrapper .line-red {
   background-color: #f7adad;
   width: 4vw;
   height: 0.3vh;
   margin-top: 4.02vh;
 }
 
-.ourWorks p {
+.ourWorks .wrapper p {
   width: 52vw;
   font-family: "Roboto", sans-serif;
   font-size: 0.97vw;
@@ -733,5 +742,101 @@ header nav:last-child .second-row:hover {
   line-height: 1.6;
   margin-top: 3.72vh;
   margin-bottom: 8.98vh;
+}
+
+.wallpaper {
+  font-size: 0;
+  margin-bottom: 90px;
+}
+
+.wallpaper > div {
+  display: inline-block;
+  width: 25%;
+}
+
+.wallpaper > div > a {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  padding-top: 81%;
+  height: 0;
+  position: relative;
+}
+
+.wallpaper > div > a > img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.wallpaper .first :first-child {
+  background-image: url("images/surf.jpg");
+}
+
+.wallpaper .first :first-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/surf.jpg");
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/surf.jpg");
+}
+
+.wallpaper .first :first-child:hover div {
+  display: block;
+}
+
+.wallpaper .first :last-child {
+  background-image: url("images/bridge.jpg");
+}
+
+.wallpaper .first :last-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/bridge.jpg");
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/bridge.jpg");
+}
+
+.wallpaper .second :first-child {
+  background-image: url("images/architecture.jpg");
+}
+
+.wallpaper .second :first-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/architecture.jpg");
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/architecture.jpg");
+}
+
+.wallpaper .second :last-child {
+  background-image: url("images/architecture_2.jpg");
+}
+
+.wallpaper .second :last-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/architecture_2.jpg");
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/architecture_2.jpg");
+}
+
+.wallpaper .third > a {
+  background-image: url("images/sea.jpg");
+  padding-top: 162%;
+}
+
+.wallpaper .third > a:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/sea.jpg");
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/sea.jpg");
+}
+
+.wallpaper .fourth :first-child {
+  background-image: url("images/architecture_3.jpg");
+}
+
+.wallpaper .fourth :first-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/architecture_3.jpg");
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/architecture_3.jpg");
+}
+
+.wallpaper .fourth :last-child {
+  background-image: url("images/arcitecture_4.jpg");
+}
+
+.wallpaper .fourth :last-child:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/arcitecture_4.jpg");
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/arcitecture_4.jpg");
 }
 /*# sourceMappingURL=style.css.map */
