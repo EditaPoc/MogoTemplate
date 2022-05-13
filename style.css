@@ -147,21 +147,58 @@ header nav:last-child .second-row:hover {
 .about {
   text-align: center;
   margin-top: 13.9vh;
+  margin-bottom: 13.9vh;
 }
 
-.about .wrapper div img {
+.about .wrapper a {
   display: inline-block;
-  width: 20.2vw;
-  height: 27.03vh;
-  padding-bottom: 10.63vh;
-  margin-left: 1.15vw;
+  width: 30%;
+  height: 27%;
+  margin-right: 2vw;
   cursor: pointer;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.about .wrapper div img:hover {
-  content: url("./images/super_team.png");
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
+.about .wrapper a:hover {
+  -webkit-box-shadow: 10px 10px #95e1d3;
+          box-shadow: 10px 10px #95e1d3;
+  position: relative;
+}
+
+.about .wrapper a:hover .super-team {
+  display: block;
+}
+
+.about .wrapper a .super-team {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da));
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
+  width: 100%;
+  min-height: 100%;
+}
+
+.about .wrapper a .super-team img {
+  margin-top: 10vh;
+}
+
+.about .wrapper a .super-team h3 {
+  font-size: 1.125vw;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.about .wrapper a > img {
+  width: 100%;
+  height: auto;
 }
 
 .about .wrapper h5 {

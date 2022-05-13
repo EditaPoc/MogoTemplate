@@ -145,21 +145,62 @@ header {
 .about {
   text-align: center;
   margin-top: 13.9vh;
+  margin-bottom: 13.9vh;
 
   .wrapper {
-    div img {
+    a {
       display: inline-block;
-      width: 20.2vw;
-      height: 27.03vh;
-      padding-bottom: 10.63vh;
-      margin-left: 1.15vw;
+      width: 30%;
+      height: 27%;
+      margin-right: 2vw;
       cursor: pointer;
+      position: relative;
+      box-sizing: border-box;
+
+      &:hover {
+        box-shadow: 10px 10px #95e1d3;
+        position: relative;
+      }
+
+      &:hover .super-team {
+        display: block;
+      }
+
+      .super-team {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
+        width: 100%;
+        min-height: 100%;
+
+        img {
+          margin-top: 10vh;
+        }
+
+        
+        h3 {
+          font-size: 1.125vw;
+          font-family: 'Montserrat';
+          font-weight: 700;
+          color: #ffffff;
+          margin-top: 10px;
+        }
+      }
+
+      >img {
+        width: 100%;
+        height: auto;
+      }
+
     }
 
-    div img:hover {
-      content: url("./images/super_team.png");
-      transform: scale(1.08);
-    }
+    // div img:hover {
+    //   content: url("./images/super_team.png");
+    //   transform: scale(1.08);
+    // }
 
     h5 {
       font-family: "Kaushan Script", cursive;
@@ -1079,10 +1120,6 @@ header {
   height: 27vh; 
   width: 100%;
   margin-bottom: 12vh;
-
-  // img {
-  //   width: 100%;
-  // }
 
   a {
     text-decoration: none;
