@@ -11,12 +11,10 @@ body {
     font-size: 0;
   }
 
-  >a {
+  > a {
     text-decoration: none;
     cursor: pointer;
   }
- 
-  
 }
 
 header {
@@ -324,35 +322,33 @@ header {
   text-align: center;
   padding-top: 12vh;
   margin-bottom: 12vh;
-  
 
   .wrapper {
-  h5 {
-    font-family: "Kaushan Script", cursive;
-    font-size: 1.25vw;
-  }
-
-  h2 {
-    font-size: 1.56vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    line-height: 1.6;
-  }
-
-  .line-red {
-    background-color: #f7adad;
-    width: 4vw;
-    height: 0.3vh;
-    margin-top: 4.02vh;
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
     }
 
-  div img{
-    display: block;
-    margin: auto;
-    margin-top: 53px;
-   
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      line-height: 1.6;
+    }
+
+    .line-red {
+      background-color: #f7adad;
+      width: 4vw;
+      height: 0.3vh;
+      margin-top: 4.02vh;
+    }
+
+    div img {
+      display: block;
+      margin: auto;
+      margin-top: 53px;
+    }
   }
-}
 }
 
 .weDo {
@@ -362,113 +358,112 @@ header {
   margin-bottom: 10vh;
 
   .wrapper {
-  h5 {
-    font-family: "Kaushan Script", cursive;
-    font-size: 1.25vw;
-  }
-
-  h2 {
-    font-size: 1.56vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    line-height: 1.6;
-  }
-
-  .line-red {
-    background-color: #f7adad;
-    width: 4vw;
-    height: 0.3vh;
-    margin-top: 4.02vh;
-  }
-
-  p {
-    width: 52vw;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.97vw;
-    color: #999999;
-    display: block;
-    margin: auto;
-    line-height: 1.6;
-    margin-top: 3.72vh;
-    margin-bottom: 8.98vh;
-  }
-
-  .creativity {
-    font-size: 0;
-    height: 450px;
-
-    .left {
-      display: inline-block;
-      width: 40%;
-      margin-right: 5%;
-      vertical-align: top;
-
-      img {
-        width: 100%;
-        height: 400px;
-      }
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
     }
 
-    .right {
-      display: inline-block;
-      width: 45%;
-      height: auto;
-      position: relative;
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      line-height: 1.6;
+    }
 
-      div {
-        border: solid 1px #999999;
-        font-size: 0;
-        text-align: left;
+    .line-red {
+      background-color: #f7adad;
+      width: 4vw;
+      height: 0.3vh;
+      margin-top: 4.02vh;
+    }
 
-        a,
-        h3,
-        p {
-          display: inline-block;
-          color: #333333;
-          font-size: 14px;
-          padding: 15px;
-          vertical-align: middle;
-        }
+    p {
+      width: 52vw;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.97vw;
+      color: #999999;
+      display: block;
+      margin: auto;
+      line-height: 1.6;
+      margin-top: 3.72vh;
+      margin-bottom: 8.98vh;
+    }
 
-        a:last-child {
-          position: absolute;
-          right: 15px;
-        }
+    .creativity {
+      font-size: 0;
+      height: 450px;
 
-        a:last-child {
-          transform: translateY(15px);
-        }
+      .left {
+        display: inline-block;
+        width: 40%;
+        margin-right: 5%;
+        vertical-align: top;
 
-        a:nth-child(2) {
-          height: 14.5vh;
-          transform: translateY(0px);
-        }
-      }
-
-      div:nth-child(2) {
-        border-top: none;
-
-        p {
-          padding: 15px;
-          font-style: italic;
-          font-size: 15px;
-          line-height: 1.6;
-          width: 29vw;
-          margin-bottom: 0;
-          margin-top: 0;
-          height: 132px;
-          overflow: hidden;
+        img {
+          width: 100%;
+          height: 400px;
         }
       }
 
-      div:nth-child(3) {
-        margin: 12px 0 12px 0;
+      .right {
+        display: inline-block;
+        width: 45%;
+        height: auto;
+        position: relative;
+
+        div {
+          border: solid 1px #999999;
+          font-size: 0;
+          text-align: left;
+
+          a,
+          h3,
+          p {
+            display: inline-block;
+            color: #333333;
+            font-size: 14px;
+            padding: 15px;
+            vertical-align: middle;
+          }
+
+          a:last-child {
+            position: absolute;
+            right: 15px;
+          }
+
+          a:last-child {
+            transform: translateY(15px);
+          }
+
+          a:nth-child(2) {
+            height: 14.5vh;
+            transform: translateY(0px);
+          }
+        }
+
+        div:nth-child(2) {
+          border-top: none;
+
+          p {
+            padding: 15px;
+            font-style: italic;
+            font-size: 15px;
+            line-height: 1.6;
+            width: 29vw;
+            margin-bottom: 0;
+            margin-top: 0;
+            height: 132px;
+            overflow: hidden;
+          }
+        }
+
+        div:nth-child(3) {
+          margin: 12px 0 12px 0;
+        }
       }
     }
   }
 }
-}
-  
 
 .slides {
   background-color: #f8f8f8;
@@ -478,66 +473,66 @@ header {
   position: relative;
 
   .wrapper {
-  .center > div {
-    display: inline-block;
-    transform: translateY(50%);
+    .center > div {
+      display: inline-block;
+      transform: translateY(50%);
 
-    p {
-      font-family: "Roboto", sans-serif;
-      font-style: italic;
-      font-weight: lighter;
-      line-height: 1.8;
-      font-size: 1.25vw;
-      color: #999999;
-      width: 38.8vw;
+      p {
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-weight: lighter;
+        line-height: 1.8;
+        font-size: 1.25vw;
+        color: #999999;
+        width: 38.8vw;
+        text-align: left;
+        margin-left: 3.3vw;
+        vertical-align: top;
+      }
+
+      .line-red {
+        display: inline-block;
+        background-color: #f7adad;
+        width: 3.1vw;
+        height: 0.3vh;
+        margin-top: 3vh;
+        margin-right: 0.52vw;
+      }
+
+      h5 {
+        display: inline-block;
+        font-family: "Kaushan Script", cursive;
+        font-size: 1.25vw;
+      }
+    }
+    .chat-border {
+      border: 3px solid #95e1d3;
+      padding: 45px;
+    }
+    .first {
       text-align: left;
       margin-left: 3.3vw;
-      vertical-align: top;
+
+      img {
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
     }
 
-    .line-red {
-      display: inline-block;
-      background-color: #f7adad;
-      width: 3.1vw;
-      height: 0.3vh;
-      margin-top: 3vh;
-      margin-right: 0.52vw;
+    div#left-arrow {
+      transform: rotate(90deg);
+      position: absolute;
+      left: 10%;
+      top: 50%;
     }
 
-    h5 {
-      display: inline-block;
-      font-family: "Kaushan Script", cursive;
-      font-size: 1.25vw;
+    div#right-arrow {
+      transform: rotate(270deg);
+      position: absolute;
+      right: 10%;
+      top: 50%;
     }
   }
-  .chat-border {
-    border: 3px solid #95e1d3;
-    padding: 45px;
-  }
-  .first {
-    text-align: left;
-    margin-left: 3.3vw;
-
-    img {
-      margin-right: 5px;
-      margin-bottom: 5px;
-    }
-  }
-
-  div#left-arrow {
-    transform: rotate(90deg);
-    position: absolute;
-    left: 10%;
-    top: 50%;
-  }
-
-  div#right-arrow {
-    transform: rotate(270deg);
-    position: absolute;
-    right: 10%;
-    top: 50%;
-  }
-}
 }
 
 .ourTeam {
@@ -636,7 +631,7 @@ header {
         }
       }
     }
-    .right{
+    .right {
       margin-right: 0;
     }
   }
@@ -648,61 +643,61 @@ header {
   margin-bottom: 12vh;
 
   .wrapper {
-  img {
-    display: block;
-    margin: auto;
-    transform: translateY(50%);
+    img {
+      display: block;
+      margin: auto;
+      transform: translateY(50%);
+    }
   }
-}
 }
 
 .ourWorks {
   height: auto;
   text-align: center;
 
-  .wrapper{
-  h5 {
-    font-family: "Kaushan Script", cursive;
-    font-size: 1.25vw;
-  }
+  .wrapper {
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
+    }
 
-  h2 {
-    font-size: 1.56vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    line-height: 1.6;
-  }
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      line-height: 1.6;
+    }
 
-  .line-red {
-    background-color: #f7adad;
-    width: 4vw;
-    height: 0.3vh;
-    margin-top: 4.02vh;
-  }
+    .line-red {
+      background-color: #f7adad;
+      width: 4vw;
+      height: 0.3vh;
+      margin-top: 4.02vh;
+    }
 
-  p {
-    width: 52vw;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.97vw;
-    color: #999999;
-    display: block;
-    margin: auto;
-    line-height: 1.6;
-    margin-top: 3.72vh;
-    margin-bottom: 8.98vh;
+    p {
+      width: 52vw;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.97vw;
+      color: #999999;
+      display: block;
+      margin: auto;
+      line-height: 1.6;
+      margin-top: 3.72vh;
+      margin-bottom: 8.98vh;
+    }
   }
-}
 }
 
 .wallpaper {
   font-size: 0;
   margin-bottom: 90px;
 
-  >div {
+  > div {
     display: inline-block;
     width: 25%;
 
-    >a {
+    > a {
       background-repeat: no-repeat;
       background-size: cover;
       display: block;
@@ -711,13 +706,13 @@ header {
       height: 0;
       position: relative;
 
-      >img {
+      > img {
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
       }
-}
+    }
   }
 
   .first {
@@ -725,7 +720,8 @@ header {
       background-image: url("images/surf.jpg");
 
       &:hover {
-        background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url('images/surf.jpg');
+        background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%),
+          url("images/surf.jpg");
       }
       &:hover div {
         display: block;
@@ -736,7 +732,8 @@ header {
       background-image: url("images/bridge.jpg");
 
       &:hover {
-        background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/bridge.jpg");
+        background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%),
+          url("images/bridge.jpg");
       }
     }
   }
@@ -761,14 +758,13 @@ header {
   }
 
   .third {
-    >a {
+    > a {
       background-image: url("images/sea.jpg");
       padding-top: 162%;
 
       &:hover {
         background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%),
           url("images/sea.jpg");
-
       }
     }
   }
@@ -795,7 +791,7 @@ header {
 }
 
 .slides2 {
-  margin-bottom: 10.67vh ;
+  margin-bottom: 10.67vh;
 
   .wrapper {
     .first {
@@ -809,14 +805,14 @@ header {
     a {
       cursor: pointer;
     }
-    
+
     a,
     div {
       display: inline-block;
       font-size: 24px;
       line-height: 36px;
       font-style: italic;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       color: #999999;
       vertical-align: middle;
       text-align: left;
@@ -829,32 +825,133 @@ header {
     .third {
       width: 60%;
       padding-right: 40px;
-    
 
-    h6 {
+      h6 {
+        font-family: "Kaushan Script", cursive;
+        color: black;
+        font-size: 24px;
+        padding-left: 70px;
+        padding-top: 10px;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 15px;
+          width: 60px;
+          height: 3px;
+          background-color: #f38181;
+        }
+      }
+    }
+
+    .fourth {
+      width: auto;
+      transform: rotate(270deg);
+    }
+  }
+}
+
+.clients {
+  background-image: url("images/layer_mountains_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .wrapper {
+    // padding-left: 30px;
+
+    h5 {
       font-family: "Kaushan Script", cursive;
-      color: black;
-      font-size: 24px;
-      padding-left: 70px;
-      padding-top: 10px;
+      font-size: 1.25vw;
+      padding-top: 90px;
+    }
+
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
       position: relative;
+      line-height: 1.6;
+      padding-bottom: 50px;
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         right: 0;
         bottom: 15px;
+        margin: 0 auto;
         width: 60px;
         height: 3px;
         background-color: #f38181;
       }
     }
-  }
 
-  .fourth {
-    width: auto;
-    transform: rotate(270deg);
-  }
+    .top-row {
+      padding-top: 8vh;
+    }
+    .top-row,
+    .bottom-row {
+      text-align: left;
+      font-size: 0;
+      padding-bottom: 9vh;
+
+      .first,
+      .second {
+        display: inline-block;
+        width: 50%;
+
+        :first-child {
+          width: 29%;
+          display: inline-block;
+          vertical-align: top;
+        }
+
+        :last-child {
+          width: 70%;
+          display: inline-block;
+        }
+
+        .first {
+          margin-right: 2%;
+        }
+      }
+
+      h3 {
+        font-family: "Monserat", sans-serif;
+        color: #333333;
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+      }
+
+      .sloping {
+        font-size: 15px;
+        color: #333333;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        position: relative;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 60px;
+          height: 3px;
+          background-color: #f38181;
+        }
+      }
+
+      p {
+        font-size: 15px;
+        color: #999999;
+        line-height: 1.5rem;
+      }
+    }
   }
 }

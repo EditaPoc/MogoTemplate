@@ -827,7 +827,7 @@ header nav:last-child .second-row:hover {
   font-size: 24px;
   line-height: 36px;
   font-style: italic;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #999999;
   vertical-align: middle;
   text-align: left;
@@ -854,7 +854,7 @@ header nav:last-child .second-row:hover {
 }
 
 .slides2 .wrapper .third h6::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -868,5 +868,119 @@ header nav:last-child .second-row:hover {
   width: auto;
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
+}
+
+.clients {
+  background-image: url("images/layer_mountains_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clients .wrapper h5 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.25vw;
+  padding-top: 90px;
+}
+
+.clients .wrapper h2 {
+  font-size: 1.56vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: relative;
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
+
+.clients .wrapper h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  margin: 0 auto;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.clients .wrapper .top-row {
+  padding-top: 8vh;
+}
+
+.clients .wrapper .top-row,
+.clients .wrapper .bottom-row {
+  text-align: left;
+  font-size: 0;
+  padding-bottom: 9vh;
+}
+
+.clients .wrapper .top-row .first,
+.clients .wrapper .top-row .second,
+.clients .wrapper .bottom-row .first,
+.clients .wrapper .bottom-row .second {
+  display: inline-block;
+  width: 50%;
+}
+
+.clients .wrapper .top-row .first :first-child,
+.clients .wrapper .top-row .second :first-child,
+.clients .wrapper .bottom-row .first :first-child,
+.clients .wrapper .bottom-row .second :first-child {
+  width: 29%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.clients .wrapper .top-row .first :last-child,
+.clients .wrapper .top-row .second :last-child,
+.clients .wrapper .bottom-row .first :last-child,
+.clients .wrapper .bottom-row .second :last-child {
+  width: 70%;
+  display: inline-block;
+}
+
+.clients .wrapper .top-row .first .first,
+.clients .wrapper .top-row .second .first,
+.clients .wrapper .bottom-row .first .first,
+.clients .wrapper .bottom-row .second .first {
+  margin-right: 2%;
+}
+
+.clients .wrapper .top-row h3,
+.clients .wrapper .bottom-row h3 {
+  font-family: "Monserat", sans-serif;
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.clients .wrapper .top-row .sloping,
+.clients .wrapper .bottom-row .sloping {
+  font-size: 15px;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.clients .wrapper .top-row .sloping::after,
+.clients .wrapper .bottom-row .sloping::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.clients .wrapper .top-row p,
+.clients .wrapper .bottom-row p {
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
