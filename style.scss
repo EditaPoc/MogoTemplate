@@ -2,7 +2,23 @@ body {
   font-family: "Kaushan Script", cursive;
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
+
+  .wrapper {
+    width: 75%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 0;
+  }
+
+  >a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+ 
+  
 }
+
 header {
   background-image: url("./images/eagle.jpg");
   background-repeat: no-repeat;
@@ -76,7 +92,6 @@ header {
   }
 
   input {
-    // padding: 2.2vh 2vw;
     background-color: #efc888;
     border: 2px solid #ffffff;
     color: #ffffff;
@@ -122,32 +137,18 @@ header {
         }
       }
     }
-
-    //   .second-row:after {
-    //     position: absolute;
-    //     left: 20px;
-    //     bottom: 0;
-    //     content: '';
-    //     height: 5px;
-    //     border-top: 2px solid #f38181;
-    //     transition:  0.5s linear;
-    // }
-
     .second-row:hover {
       border-top: 2px solid #f38181;
       width: 14vw;
     }
   }
 }
+
 .about {
   text-align: center;
   margin-top: 13.9vh;
 
   .wrapper {
-    width: 75%;
-    display: block;
-    margin: auto;
-
     div img {
       display: inline-block;
       width: 20.2vw;
@@ -248,10 +249,6 @@ header {
   margin-bottom: 11.5vh;
 
   .wrapper {
-    width: 75%;
-    display: block;
-    margin: auto;
-
     h5 {
       font-family: "Kaushan Script", cursive;
       font-size: 1.25vw;
@@ -330,11 +327,6 @@ header {
   
 
   .wrapper {
-    width: 75%;
-    display: block;
-    margin: auto;
-   
-
   h5 {
     font-family: "Kaushan Script", cursive;
     font-size: 1.25vw;
@@ -370,10 +362,6 @@ header {
   margin-bottom: 10vh;
 
   .wrapper {
-    width: 75%;
-    display: block;
-    margin: auto;
-
   h5 {
     font-family: "Kaushan Script", cursive;
     font-size: 1.25vw;
@@ -490,11 +478,6 @@ header {
   position: relative;
 
   .wrapper {
-    width: 75%;
-    display: block;
-    margin: auto;
-  
-
   .center > div {
     display: inline-block;
     transform: translateY(50%);
@@ -559,11 +542,6 @@ header {
 
 .ourTeam {
   .wrapper {
-    width: 75%;
-    display: block;
-    margin: auto;
-    text-align: center;
-
     h5 {
       font-family: "Kaushan Script", cursive;
       font-size: 1.25vw;
@@ -670,16 +648,12 @@ header {
   margin-bottom: 12vh;
 
   .wrapper {
-    width: 75%;
-    display: block;
-    margin: auto;
-  }
-
   img {
     display: block;
     margin: auto;
     transform: translateY(50%);
   }
+}
 }
 
 .ourWorks {
@@ -687,10 +661,6 @@ header {
   text-align: center;
 
   .wrapper{
-    width: 75%;
-    display: block;
-    margin: auto;
-
   h5 {
     font-family: "Kaushan Script", cursive;
     font-size: 1.25vw;
@@ -822,6 +792,69 @@ header {
       }
     }
   }
+}
 
+.slides2 {
+  margin-bottom: 10.67vh ;
 
+  .wrapper {
+    .first {
+      width: auto;
+
+      img {
+        transform: rotate(90deg);
+      }
+    }
+
+    a {
+      cursor: pointer;
+    }
+    
+    a,
+    div {
+      display: inline-block;
+      font-size: 24px;
+      line-height: 36px;
+      font-style: italic;
+      font-family: 'Roboto', sans-serif;
+      color: #999999;
+      vertical-align: middle;
+      text-align: left;
+      box-sizing: border-box;
+    }
+    .second {
+      width: auto;
+    }
+
+    .third {
+      width: 60%;
+      padding-right: 40px;
+    
+
+    h6 {
+      font-family: "Kaushan Script", cursive;
+      color: black;
+      font-size: 24px;
+      padding-left: 70px;
+      padding-top: 10px;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+      }
+    }
+  }
+
+  .fourth {
+    width: auto;
+    transform: rotate(270deg);
+  }
+  }
 }

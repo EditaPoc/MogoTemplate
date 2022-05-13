@@ -4,6 +4,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+body .wrapper {
+  width: 75%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 0;
+}
+
+body > a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 header {
   background-image: url("./images/eagle.jpg");
   background-repeat: no-repeat;
@@ -136,12 +149,6 @@ header nav:last-child .second-row:hover {
   margin-top: 13.9vh;
 }
 
-.about .wrapper {
-  width: 75%;
-  display: block;
-  margin: auto;
-}
-
 .about .wrapper div img {
   display: inline-block;
   width: 20.2vw;
@@ -243,12 +250,6 @@ header nav:last-child .second-row:hover {
   margin-bottom: 11.5vh;
 }
 
-.services .wrapper {
-  width: 75%;
-  display: block;
-  margin: auto;
-}
-
 .services .wrapper h5 {
   font-family: "Kaushan Script", cursive;
   font-size: 1.25vw;
@@ -324,12 +325,6 @@ header nav:last-child .second-row:hover {
   margin-bottom: 12vh;
 }
 
-.design .wrapper {
-  width: 75%;
-  display: block;
-  margin: auto;
-}
-
 .design .wrapper h5 {
   font-family: "Kaushan Script", cursive;
   font-size: 1.25vw;
@@ -360,12 +355,6 @@ header nav:last-child .second-row:hover {
   text-align: center;
   padding-top: 12vh;
   margin-bottom: 10vh;
-}
-
-.weDo .wrapper {
-  width: 75%;
-  display: block;
-  margin: auto;
 }
 
 .weDo .wrapper h5 {
@@ -483,12 +472,6 @@ header nav:last-child .second-row:hover {
   position: relative;
 }
 
-.slides .wrapper {
-  width: 75%;
-  display: block;
-  margin: auto;
-}
-
 .slides .wrapper .center > div {
   display: inline-block;
   -webkit-transform: translateY(50%);
@@ -552,13 +535,6 @@ header nav:last-child .second-row:hover {
   position: absolute;
   right: 10%;
   top: 50%;
-}
-
-.ourTeam .wrapper {
-  width: 75%;
-  display: block;
-  margin: auto;
-  text-align: center;
 }
 
 .ourTeam .wrapper h5 {
@@ -689,13 +665,7 @@ header nav:last-child .second-row:hover {
   margin-bottom: 12vh;
 }
 
-.logos .wrapper {
-  width: 75%;
-  display: block;
-  margin: auto;
-}
-
-.logos img {
+.logos .wrapper img {
   display: block;
   margin: auto;
   -webkit-transform: translateY(50%);
@@ -705,12 +675,6 @@ header nav:last-child .second-row:hover {
 .ourWorks {
   height: auto;
   text-align: center;
-}
-
-.ourWorks .wrapper {
-  width: 75%;
-  display: block;
-  margin: auto;
 }
 
 .ourWorks .wrapper h5 {
@@ -838,5 +802,71 @@ header nav:last-child .second-row:hover {
 .wallpaper .fourth :last-child:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/arcitecture_4.jpg");
   background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/arcitecture_4.jpg");
+}
+
+.slides2 {
+  margin-bottom: 10.67vh;
+}
+
+.slides2 .wrapper .first {
+  width: auto;
+}
+
+.slides2 .wrapper .first img {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.slides2 .wrapper a {
+  cursor: pointer;
+}
+
+.slides2 .wrapper a,
+.slides2 .wrapper div {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 36px;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  color: #999999;
+  vertical-align: middle;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slides2 .wrapper .second {
+  width: auto;
+}
+
+.slides2 .wrapper .third {
+  width: 60%;
+  padding-right: 40px;
+}
+
+.slides2 .wrapper .third h6 {
+  font-family: "Kaushan Script", cursive;
+  color: black;
+  font-size: 24px;
+  padding-left: 70px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.slides2 .wrapper .third h6::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.slides2 .wrapper .fourth {
+  width: auto;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
 /*# sourceMappingURL=style.css.map */
