@@ -955,3 +955,124 @@ header {
     }
   }
 }
+
+.blog {
+  .wrapper {
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
+      padding-top: 90px;
+    }
+
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      position: relative;
+      line-height: 1.6;
+      padding-bottom: 50px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+        margin: 0 auto;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+      }
+    }
+
+    article {
+      display: inline-block;
+      position: relative;
+      width: 30%;
+      text-align: left;
+      margin-right: 2%;
+      margin-bottom: 7.3vh;
+      margin-top: 5vh;
+      box-sizing: border-box;
+
+      :last-child {
+        margin-right: 0;
+      }
+
+      a {
+        text-decoration: none;
+        .photo {
+          
+          img {
+            width: 100%;
+            height: auto;
+          }
+          
+        }
+
+        h3 {
+          font-size: 14px;
+          font-family: 'Montserrat';
+          color: #333333;
+          text-align: left;
+          margin: 20px 0 20px 0;
+        }
+
+        p {
+          font-size: 15px;
+          line-height: 1.5;
+          font-family: 'Roboto', sans-serif;
+          color: #999999;
+          border-bottom: #999999 1px solid;
+          padding-bottom: 15px;
+          margin-bottom: 15px;
+        }
+        .sticky-note {
+          position: absolute;
+          text-align: center;
+          top: 41%;
+          left: -2%;
+          width: 60px;
+          height: 70px;
+          background: #95e1d3;
+
+          h4 {
+            color: #ffffff;
+            font-size: 14px;
+            
+
+            span {
+              display: block;
+              padding-top: 10px;
+              font-size: 28px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+  }
+
+  div:last-child { 
+    a {
+      margin-right: 16px;
+
+      img {
+        display: inline-block;
+      }
+
+      p {
+        border-bottom: none;
+        font-size: 0.95rem;
+        display: inline-block;
+        margin-left: 0.3rem;
+        font-size: 0.95rem;
+        font-family: 'Roboto', sans-serif;
+        color: #999999;
+
+      }
+    }
+
+  }
+}
+}
