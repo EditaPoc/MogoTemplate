@@ -1002,17 +1002,15 @@ header {
       a {
         text-decoration: none;
         .photo {
-          
           img {
             width: 100%;
             height: auto;
           }
-          
         }
 
         h3 {
           font-size: 14px;
-          font-family: 'Montserrat';
+          font-family: "Montserrat";
           color: #333333;
           text-align: left;
           margin: 20px 0 20px 0;
@@ -1021,7 +1019,7 @@ header {
         p {
           font-size: 15px;
           line-height: 1.5;
-          font-family: 'Roboto', sans-serif;
+          font-family: "Roboto", sans-serif;
           color: #999999;
           border-bottom: #999999 1px solid;
           padding-bottom: 15px;
@@ -1039,7 +1037,6 @@ header {
           h4 {
             color: #ffffff;
             font-size: 14px;
-            
 
             span {
               display: block;
@@ -1050,29 +1047,76 @@ header {
           }
         }
       }
-
-  }
-
-  div:last-child { 
-    a {
-      margin-right: 16px;
-
-      img {
-        display: inline-block;
-      }
-
-      p {
-        border-bottom: none;
-        font-size: 0.95rem;
-        display: inline-block;
-        margin-left: 0.3rem;
-        font-size: 0.95rem;
-        font-family: 'Roboto', sans-serif;
-        color: #999999;
-
-      }
     }
 
+    div:last-child {
+      a {
+        margin-right: 16px;
+
+        img {
+          display: inline-block;
+        }
+
+        p {
+          border-bottom: none;
+          font-size: 0.95rem;
+          display: inline-block;
+          margin-left: 0.3rem;
+          font-size: 0.95rem;
+          font-family: "Roboto", sans-serif;
+          color: #999999;
+        }
+      }
+    }
+  }
+}
+
+.map {
+  position: relative;
+  background-image: url("./images/map.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 27vh; 
+  width: 100%;
+  margin-bottom: 12vh;
+
+  // img {
+  //   width: 100%;
+  // }
+
+  a {
+    text-decoration: none;
+    color: #f38181;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 3rem 0;
+
+    .location {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-family: 'Montserrat';
+      font-size: 24px;
+      font-weight: bold;
+      position: relative;
+      padding-bottom: 19px;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        height: 4px;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+      }
   }
 }
 }
