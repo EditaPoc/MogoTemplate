@@ -3,257 +3,254 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-  header {
-    background-image: url("./images/eagle.jpg");
-    background-repeat: no-repeat;
-    // background-size: cover;
-    background-size: 100% 100%;
-    // width: 100vw;
-    height: 100vh;
-    color: white;
+header {
+  background-image: url("./images/eagle.jpg");
+  background-repeat: no-repeat;
+  // background-size: cover;
+  background-size: 100% 100%;
+  // width: 100vw;
+  height: 100vh;
+  color: white;
 
-    nav:first-child {
-      display: block;
-      font-size: 0;
-      margin: 0 auto 12vh auto;
-      width: 70%;
-      padding-top: 3vh;
+  nav:first-child {
+    display: block;
+    font-size: 0;
+    margin: 0 auto 12vh auto;
+    width: 70%;
+    padding-top: 3vh;
 
-      .logo {
-        width: 45%;
-        display: inline-block;
-        font-family: "Montserrat", sans-serif;
-        font-weight: bold;
-        font-size: 1.9vw;
-      }
-      a {
-        text-decoration: none;
-        cursor: pointer;
-        color: white;
-      }
-
-      ul {
-        width: 52%;
-        display: inline-block;
-
-        li {
-          display: inline-block;
-          text-align: center;
-          width: 14%;
-          font-size: 0.65vw;
-          padding-bottom: 0.8vh;
-          cursor: pointer;
-        }
-
-        li:hover {
-          color: #fce38a;
-          text-decoration: underline 2px solid #fce38a;
-          text-underline-offset: 1vh;
-        }
-      }
-    }
-
-    h2 {
-      font-family: "Kaushan Script", cursive;
-      text-align: center;
-      font-size: 3.75vw;
-      margin-bottom: 4vh;
-    }
-
-    h1 {
-      font-size: 7.8vw;
+    .logo {
+      width: 45%;
+      display: inline-block;
+      font-family: "Montserrat", sans-serif;
       font-weight: bold;
-      text-align: center;
+      font-size: 1.9vw;
     }
-
-    .line {
-      display: block;
-      margin: auto;
-      width: 3.125vw;
-      height: 0.3vh;
-      margin-top: 5.1vh;
-      margin-bottom: 5.1vh;
-    }
-
-    input {
-      // padding: 2.2vh 2vw;
-      background-color: #efc888;
-      border: 2px solid #ffffff;
-      color: #ffffff;
-      font-size: 0.72vw;
-      display: block;
-      margin: auto;
-      margin-top: 1vh;
-      margin-bottom: 8vh;
-      width: 8.38vw;
-      height: 4.3vh;
+    a {
+      text-decoration: none;
       cursor: pointer;
+      color: white;
     }
 
-    input:hover {
-      background-color: #fce38a;
-    }
-    nav:last-child {
-      width: 70%;
-      display: block;
-      margin: auto;
-      font-size: 0;
+    ul {
+      width: 52%;
+      display: inline-block;
 
-      .second-row {
+      li {
         display: inline-block;
-        background: transparent;
-        border-bottom: none;
-        border-left: none;
-        border-right: none;
-        border-top: 2px solid rgba(255, 255, 255, 0.6);
-        width: 14vw;
-        text-align: left;
-        color: #ffffff;
-        padding-top: 1.2vh;
-        margin: 10vh 1.5vw 0 1.8vw;
+        text-align: center;
+        width: 14%;
+        font-size: 0.65vw;
+        padding-bottom: 0.8vh;
         cursor: pointer;
-
-        h4 {
-          font-size: 0.9vw;
-
-          span {
-            font-size: 1.3vw;
-            font-weight: bold;
-          }
-        }
       }
 
-      //   .second-row:after {
-      //     position: absolute;
-      //     left: 20px;
-      //     bottom: 0;
-      //     content: '';
-      //     height: 5px;
-      //     border-top: 2px solid #f38181;
-      //     transition:  0.5s linear;
-      // }
-
-      .second-row:hover {
-        border-top: 2px solid #f38181;
-        width: 14vw;
+      li:hover {
+        color: #fce38a;
+        text-decoration: underline 2px solid #fce38a;
+        text-underline-offset: 1vh;
       }
     }
   }
-  .about {
+
+  h2 {
+    font-family: "Kaushan Script", cursive;
     text-align: center;
-    margin-top: 13.9vh;
-  
-    .wrapper {
+    font-size: 3.75vw;
+    margin-bottom: 4vh;
+  }
+
+  h1 {
+    font-size: 7.8vw;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .line {
+    display: block;
+    margin: auto;
+    width: 3.125vw;
+    height: 0.3vh;
+    margin-top: 5.1vh;
+    margin-bottom: 5.1vh;
+  }
+
+  input {
+    // padding: 2.2vh 2vw;
+    background-color: #efc888;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 0.72vw;
+    display: block;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
+    width: 8.38vw;
+    height: 4.3vh;
+    cursor: pointer;
+  }
+
+  input:hover {
+    background-color: #fce38a;
+  }
+  nav:last-child {
+    width: 70%;
+    display: block;
+    margin: auto;
+    font-size: 0;
+
+    .second-row {
+      display: inline-block;
+      background: transparent;
+      border-bottom: none;
+      border-left: none;
+      border-right: none;
+      border-top: 2px solid rgba(255, 255, 255, 0.6);
+      width: 14vw;
+      text-align: left;
+      color: #ffffff;
+      padding-top: 1.2vh;
+      margin: 10vh 1.5vw 0 1.8vw;
+      cursor: pointer;
+
+      h4 {
+        font-size: 0.9vw;
+
+        span {
+          font-size: 1.3vw;
+          font-weight: bold;
+        }
+      }
+    }
+
+    //   .second-row:after {
+    //     position: absolute;
+    //     left: 20px;
+    //     bottom: 0;
+    //     content: '';
+    //     height: 5px;
+    //     border-top: 2px solid #f38181;
+    //     transition:  0.5s linear;
+    // }
+
+    .second-row:hover {
+      border-top: 2px solid #f38181;
+      width: 14vw;
+    }
+  }
+}
+.about {
+  text-align: center;
+  margin-top: 13.9vh;
+
+  .wrapper {
     width: 75%;
     display: block;
     margin: auto;
 
-    
-
-      div img {
-        display: inline-block;
-        width: 20.2vw;
-        height: 27.03vh;
-        padding-bottom: 10.63vh;
-        margin-left: 1.15vw;
-        cursor: pointer;
-      }
-
-      div img:hover {
-        content: url("./images/super_team.png");
-        transform: scale(1.08);
-      }
-
-      h5 {
-        font-family: "Kaushan Script", cursive;
-        font-size: 1.25vw;
-      }
-
-      h2 {
-        font-size: 1.56vw;
-        font-family: "Montserrat", sans-serif;
-        font-weight: bold;
-        line-height: 1.6;
-      }
-
-      .line-red {
-        background-color: #f7adad;
-        width: 4vw;
-        height: 0.3vh;
-        margin-top: 4.02vh;
-      }
-
-      p {
-        width: 52vw;
-        font-family: "Roboto", sans-serif;
-        font-size: 0.97vw;
-        color: #999999;
-        display: block;
-        margin: auto;
-        line-height: 1.6;
-        margin-top: 3.72vh;
-        margin-bottom: 8.98vh;
-      }
-    }
-  }
-
-  .numbers {
-    display: block;
-    background-color: #95e1d3;
-    height: 28vh;
-    margin-bottom: 11.24vh;
-    position: relative;
-
-    .row {
-      display: block;
-      width: 70%;
-      font-size: 0;
-      position: absolute;
-      top: 50%;
-      left: 60%;
-      transform: translate(-60%, -50%);
-
-      .vertical {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        border-left: 1px solid rgba(255, 255, 255, 0.2);
-        height: 271px;
-        width: 1px;
-      }
-    }
-
-    .row div {
+    div img {
       display: inline-block;
-      color: white;
-      width: 14%;
-      text-align: center;
-      padding: 0 1.6vw 0 1.6vw;
-
-      h6 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 3.75vw;
-        font-weight: bold;
-        margin-bottom: 3.1vh;
-      }
-
-      p {
-        font-size: 0.74vw;
-        font-family: "Montserrat", sans-serif;
-      }
+      width: 20.2vw;
+      height: 27.03vh;
+      padding-bottom: 10.63vh;
+      margin-left: 1.15vw;
+      cursor: pointer;
     }
-  }
 
-  .services {
-    text-align: center;
-    margin-top: 11.5vh;
-    margin-bottom: 11.5vh;
+    div img:hover {
+      content: url("./images/super_team.png");
+      transform: scale(1.08);
+    }
 
-    .wrapper {
-      width: 75%;
+    h5 {
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
+    }
+
+    h2 {
+      font-size: 1.56vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      line-height: 1.6;
+    }
+
+    .line-red {
+      background-color: #f7adad;
+      width: 4vw;
+      height: 0.3vh;
+      margin-top: 4.02vh;
+    }
+
+    p {
+      width: 52vw;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.97vw;
+      color: #999999;
       display: block;
       margin: auto;
-  
+      line-height: 1.6;
+      margin-top: 3.72vh;
+      margin-bottom: 8.98vh;
+    }
+  }
+}
+
+.numbers {
+  display: block;
+  background-color: #95e1d3;
+  height: 28vh;
+  margin-bottom: 11.24vh;
+  position: relative;
+
+  .row {
+    display: block;
+    width: 70%;
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-60%, -50%);
+
+    .vertical {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border-left: 1px solid rgba(255, 255, 255, 0.2);
+      height: 271px;
+      width: 1px;
+    }
+  }
+
+  .row div {
+    display: inline-block;
+    color: white;
+    width: 14%;
+    text-align: center;
+    padding: 0 1.6vw 0 1.6vw;
+
+    h6 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 3.75vw;
+      font-weight: bold;
+      margin-bottom: 3.1vh;
+    }
+
+    p {
+      font-size: 0.74vw;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+}
+
+.services {
+  text-align: center;
+  margin-top: 11.5vh;
+  margin-bottom: 11.5vh;
+
+  .wrapper {
+    width: 75%;
+    display: block;
+    margin: auto;
 
     h5 {
       font-family: "Kaushan Script", cursive;
@@ -322,48 +319,250 @@ body {
   }
 }
 
-  .design {
-    background-image: url("./images/layer_mountains.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 80vh;
-    text-align: center;
-    padding-top: 12vh;
-    margin-bottom: 12vh;
+.design {
+  background-image: url("./images/layer_mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 80vh;
+  text-align: center;
+  padding-top: 12vh;
+  margin-bottom: 12vh;
 
-    h5 {
-      font-family: "Kaushan Script", cursive;
-      font-size: 1.25vw;
+  .wrapper {
+    width: 75%;
+    display: block;
+    margin: auto;
+
+  h5 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 1.25vw;
+  }
+
+  h2 {
+    font-size: 1.56vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+
+  .line-red {
+    background-color: #f7adad;
+    width: 4vw;
+    height: 0.3vh;
+    margin-top: 4.02vh;
+  }
+
+  .phones {
+    position: absoute;
+    top: 72.5%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+}
+}
+
+.weDo {
+  height: 80vh;
+  text-align: center;
+  padding-top: 12vh;
+  margin-bottom: 10vh;
+
+  .wrapper {
+    width: 75%;
+    display: block;
+    margin: auto;
+
+  h5 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 1.25vw;
+  }
+
+  h2 {
+    font-size: 1.56vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+
+  .line-red {
+    background-color: #f7adad;
+    width: 4vw;
+    height: 0.3vh;
+    margin-top: 4.02vh;
+  }
+
+  p {
+    width: 52vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.97vw;
+    color: #999999;
+    display: block;
+    margin: auto;
+    line-height: 1.6;
+    margin-top: 3.72vh;
+    margin-bottom: 8.98vh;
+  }
+
+  .creativity {
+    font-size: 0;
+    height: 450px;
+
+    .left {
+      display: inline-block;
+      width: 40%;
+      margin-right: 5%;
+      vertical-align: top;
+
+      img {
+        width: 100%;
+        height: 400px;
+      }
     }
 
-    h2 {
-      font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      line-height: 1.6;
+    .right {
+      display: inline-block;
+      width: 45%;
+      height: auto;
+      position: relative;
+
+      div {
+        border: solid 1px #999999;
+        font-size: 0;
+        text-align: left;
+
+        a,
+        h3,
+        p {
+          display: inline-block;
+          color: #333333;
+          font-size: 14px;
+          padding: 15px;
+          vertical-align: middle;
+        }
+
+        a:last-child {
+          position: absolute;
+          right: 15px;
+        }
+
+        a:last-child {
+          transform: translateY(15px);
+        }
+
+        a:nth-child(2) {
+          height: 14.5vh;
+          transform: translateY(0px);
+        }
+      }
+
+      div:nth-child(2) {
+        border-top: none;
+
+        p {
+          padding: 15px;
+          font-style: italic;
+          font-size: 15px;
+          line-height: 1.6;
+          width: 29vw;
+          margin-bottom: 0;
+          margin-top: 0;
+          height: 132px;
+          overflow: hidden;
+        }
+      }
+
+      div:nth-child(3) {
+        margin: 12px 0 12px 0;
+      }
+    }
+  }
+}
+}
+  
+
+.slides {
+  background-color: #f8f8f8;
+  height: 33vh;
+  margin-bottom: 12vh;
+  // transform: translateY(50%);
+  text-align: center;
+  position: relative;
+
+  .wrapper {
+    width: 75%;
+    display: block;
+    margin: auto;
+  
+
+  .center > div {
+    display: inline-block;
+    transform: translateY(50%);
+
+    p {
+      font-family: "Roboto", sans-serif;
+      font-style: italic;
+      font-weight: lighter;
+      line-height: 1.8;
+      font-size: 1.25vw;
+      color: #999999;
+      width: 38.8vw;
+      text-align: left;
+      margin-left: 3.3vw;
+      vertical-align: top;
     }
 
     .line-red {
+      display: inline-block;
       background-color: #f7adad;
-      width: 4vw;
+      width: 3.1vw;
       height: 0.3vh;
-      margin-top: 4.02vh;
+      margin-top: 3vh;
+      margin-right: 0.52vw;
     }
 
-    .phones {
-      position: absolute;
-      top: 72.5%;
-      left: 55%;
-      transform: translate(-50%, -50%);
+    h5 {
+      display: inline-block;
+      font-family: "Kaushan Script", cursive;
+      font-size: 1.25vw;
+    }
+  }
+  .chat-border {
+    border: 3px solid #95e1d3;
+    padding: 45px;
+  }
+  .first {
+    text-align: left;
+    margin-left: 3.3vw;
+
+    img {
+      margin-right: 5px;
+      margin-bottom: 5px;
     }
   }
 
-  .weDo {
-    height: 80vh;
+  div#left-arrow {
+    transform: rotate(90deg);
+    position: absolute;
+    left: 10%;
+    top: 50%;
+  }
+
+  div#right-arrow {
+    transform: rotate(270deg);
+    position: absolute;
+    right: 10%;
+    top: 50%;
+  }
+}
+}
+
+.ourTeam {
+  .wrapper {
+    width: 75%;
+    display: block;
+    margin: auto;
     text-align: center;
-    padding-top: 12vh;
-    margin-bottom: 10vh;
 
     h5 {
       font-family: "Kaushan Script", cursive;
@@ -396,271 +595,119 @@ body {
       margin-bottom: 8.98vh;
     }
 
-    .creativity {
-      font-size: 0;
-      height: 450px;
-
-      .left {
-        display: inline-block;
-        width: 40%;
-        margin-right: 5%;
-        vertical-align: top;
-
-        img {
-          width: 100%;
-          height: 400px;
-        }
-      }
-
-      .right {
-        display: inline-block;
-        width: 45%;
-        height: auto;
-        position: relative;
-
-        div {
-          border: solid 1px #999999;
-          font-size: 0;
-          text-align: left;
-
-          a,
-          h3,
-          p {
-            display: inline-block;
-            color: #333333;
-            font-size: 14px;
-            padding: 15px;
-            vertical-align: middle;
-          }
-
-          a:last-child {
-            position: absolute;
-            right: 15px;
-          }
-
-          a:last-child {
-            transform: translateY(15px);
-          }
-
-          a:nth-child(2) {
-            height: 14.5vh;
-            transform: translateY(0px);
-          }
-        }
-
-        div:nth-child(2) {
-          border-top: none;
-
-          p {
-            padding: 15px;
-            font-style: italic;
-            font-size: 15px;
-            line-height: 1.6;
-            width: 29vw;
-            margin-bottom: 0;
-            margin-top: 0;
-            height: 132px;
-            overflow: hidden;
-          } 
-      }
-
-        div:nth-child(3) {
-          margin: 12px 0 12px 0;
-        }
-      }
+    a {
+      text-decoration: none;
     }
-  }
-
-  .slides {
-    background-color: #f8f8f8;
-    height: 33vh;
-    margin-bottom: 12vh;
-
-    .wrapper {
-      transform: translateY(50%);
-      text-align: center;
-      position: relative;
-    }
-
-    .center > div {
+    .left,
+    .center,
+    .right {
+      width: 30%;
+      box-sizing: border-box;
       display: inline-block;
+      margin-right: 2%;
+      text-align: center;
+
+      h3 {
+        margin: 30px 0 15px 0;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        color: #333333;
+        letter-spacing: 1px;
+      }
 
       p {
         font-family: "Roboto", sans-serif;
-        font-style: italic;
-        font-weight: lighter;
-        line-height: 1.8;
-        font-size: 1.25vw;
-        color: #999999;
-        width: 38.8vw;
-        text-align: left;
-        margin-left: 3.3vw;
-        vertical-align: top;
-      }
-
-      .line-red {
-        display: inline-block;
-        background-color: #f7adad;
-        width: 3.1vw;
-        height: 0.3vh;
-        margin-top: 3vh;
-        margin-right: 0.52vw;
-      }
-
-      h5 {
-        display: inline-block;
-        font-family: "Kaushan Script", cursive;
-        font-size: 1.25vw;
-      }
-    }
-    .chat-border {
-      border: 3px solid #95e1d3;
-      padding: 45px;
-    }
-    .first {
-      text-align: left;
-      margin-left: 3.3vw;
-
-      img {
-        margin-right: 5px;
-        margin-bottom: 5px;
-      }
-    }
-
-    div#left-arrow {
-      transform: rotate(90deg);
-      position: absolute;
-      left: 10%;
-      top: 50%;
-    }
-
-    div#right-arrow {
-      transform: rotate(270deg);
-      position: absolute;
-      right: 10%;
-      top: 50%;
-    }
-  }
-
-  .ourTeam {
-    text-align: center;
-
-    h5 {
-      font-family: "Kaushan Script", cursive;
-      font-size: 1.25vw;
-    }
-
-    h2 {
-      font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      line-height: 1.6;
-    }
-
-    .line-red {
-      background-color: #f7adad;
-      width: 4vw;
-      height: 0.3vh;
-      margin-top: 4.02vh;
-    }
-
-    p {
-      width: 52vw;
-      font-family: "Roboto", sans-serif;
-      font-size: 0.97vw;
-      color: #999999;
-      display: block;
-      margin: auto;
-      line-height: 1.6;
-      margin-top: 3.72vh;
-      margin-bottom: 8.98vh;
-    }
-   
-    
-    .member {
-      display: inline-block;
-      width: 30%;
-
-      h3 {
-        margin-top: 27px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        // font-weight: bold;
-        color: #333333;
-        letter-spacing: 1px;
-
-      }
-
-      p {
-        font-family: 'Roboto', sans-serif;
         font-size: 15px;
         font-weight: lighter;
         font-style: italic;
-        margin-top: 10px;
         width: 150px;
       }
+
+      .member {
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+        height: auto;
+
+        > img {
+          width: 100%;
+          height: auto;
+        }
+
+        &:hover {
+          box-shadow: 10px 10px 7px#95e1d3;
+          bottom: 10px;
+          right: 10px;
+        }
+
+        div {
+          background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
+          min-width: 100%;
+          min-height: 100%;
+          display: none;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          img {
+            padding-top: 50%;
+          }
+        }
+        &:hover div {
+          display: block;
+        }
+      }
     }
-
-    .member img {
-      cursor: pointer;
-
-    }
-
-    .member img:hover {
-      content: url("./images/Rectangle-4.png");
-      transform: scale(1.08);
-
-      // rgba(241,224,145, 0.6) to rgba(234,140,138, 0.6)
-
-  }
-  
-  }
-
-  .logos {
-    height: 251px;
-    background: #f8f8f8;
-    margin-bottom: 12vh;
-
-    img {
-      display: block;
-      margin: auto;
-      transform: translateY(50%);
-    }
-  }
-
-  .ourWorks {
-    height: 750px;
-    text-align: center;
-
-    h5 {
-      font-family: "Kaushan Script", cursive;
-      font-size: 1.25vw;
-    }
-
-    h2 {
-      font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      line-height: 1.6;
-    }
-
-    .line-red {
-      background-color: #f7adad;
-      width: 4vw;
-      height: 0.3vh;
-      margin-top: 4.02vh;
-    }
-
-    p {
-      width: 52vw;
-      font-family: "Roboto", sans-serif;
-      font-size: 0.97vw;
-      color: #999999;
-      display: block;
-      margin: auto;
-      line-height: 1.6;
-      margin-top: 3.72vh;
-      margin-bottom: 8.98vh;
+    .right{
+      margin-right: 0;
     }
   }
+}
 
+.logos {
+  height: 251px;
+  background: #f8f8f8;
+  margin-bottom: 12vh;
+
+  img {
+    display: block;
+    margin: auto;
+    transform: translateY(50%);
+  }
+}
+
+.ourWorks {
+  height: 750px;
+  text-align: center;
+
+  h5 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 1.25vw;
+  }
+
+  h2 {
+    font-size: 1.56vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+
+  .line-red {
+    background-color: #f7adad;
+    width: 4vw;
+    height: 0.3vh;
+    margin-top: 4.02vh;
+  }
+
+  p {
+    width: 52vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.97vw;
+    color: #999999;
+    display: block;
+    margin: auto;
+    line-height: 1.6;
+    margin-top: 3.72vh;
+    margin-bottom: 8.98vh;
+  }
+}
