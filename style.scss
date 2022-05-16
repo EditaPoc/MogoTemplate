@@ -1,26 +1,39 @@
-body {
-  font-family: "Kaushan Script", cursive;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
+$h5-font-cursive: "Kaushan Script";
+$font-montserrat: "Montserrat";
+$font-roboto: "Roboto", sans-serif;
 
+body {
   .wrapper {
     width: 75%;
     display: block;
     margin: auto;
     text-align: center;
     font-size: 0;
-  }
 
-  > a {
-    text-decoration: none;
-    cursor: pointer;
+    > h2 {
+      font-size: 1.56vw;
+      font-family: $font-montserrat;
+      font-weight: bold;
+      line-height: 1.6;
+      position: relative;
+      padding-bottom: 50px;
+    }
+    > h5 {
+      font-family: $h5-font-cursive;
+      font-size: 1.25vw;
+    }
+
+    > a {
+      text-decoration: none;
+      cursor: pointer;
+    }
   }
 }
 
 header {
   background-image: url("./images/eagle.jpg");
   background-repeat: no-repeat;
-  // background-size: cover;
+  background-size: cover;
   background-size: 100% 100%;
   // width: 100vw;
   height: 100vh;
@@ -36,7 +49,7 @@ header {
     .logo {
       width: 45%;
       display: inline-block;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-weight: bold;
       font-size: 1.9vw;
     }
@@ -54,6 +67,7 @@ header {
         display: inline-block;
         text-align: center;
         width: 14%;
+        font-family: $font-montserrat;
         font-size: 0.65vw;
         padding-bottom: 0.8vh;
         cursor: pointer;
@@ -67,37 +81,44 @@ header {
     }
   }
 
-  h2 {
-    font-family: "Kaushan Script", cursive;
+  h5 {
+    font-family: $h5-font-cursive;
     text-align: center;
     font-size: 3.75vw;
     margin-bottom: 4vh;
   }
 
   h1 {
+    font-family: $font-montserrat;
     font-size: 7.8vw;
     font-weight: bold;
     text-align: center;
-  }
+    position: relative;
+    padding-bottom: 5vh;
 
-  .line {
-    display: block;
-    margin: auto;
-    width: 3.125vw;
-    height: 0.3vh;
-    margin-top: 5.1vh;
-    margin-bottom: 5.1vh;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 6vh;
+      margin: 0 auto;
+      height: 0.4vh;
+      background: #ffffff;
+    }
   }
 
   input {
-    background-color: #efc888;
+    background-color: transparent;
     border: 2px solid #ffffff;
     color: #ffffff;
     font-size: 0.72vw;
+    font-family: $font-montserrat;
     display: block;
     margin: auto;
-    margin-top: 1vh;
-    margin-bottom: 8vh;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
     width: 8.38vw;
     height: 4.3vh;
     cursor: pointer;
@@ -142,6 +163,16 @@ header {
   }
 }
 
+// @media screen  and ( min-width: 1475px ){
+//   .second-row {
+//     width: 12vw;
+//   }
+
+//   header input {
+//     margin-bottom: 11vh;
+//   }
+// }
+
 .about {
   text-align: center;
   margin-top: 13.9vh;
@@ -182,7 +213,7 @@ header {
 
         h3 {
           font-size: 1.125vw;
-          font-family: "Montserrat";
+          font-family: $font-montserrat;
           font-weight: 700;
           color: #ffffff;
           margin-top: 10px;
@@ -200,14 +231,14 @@ header {
     //   transform: scale(1.08);
     // }
 
-    h5 {
-      font-family: "Kaushan Script", cursive;
-      font-size: 1.25vw;
-    }
+    // h5 {
+    //   font-family: $h5-font-cursive;
+    //   font-size: 1.25vw;
+    // }
 
     h2 {
       font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-weight: bold;
       line-height: 1.6;
       position: relative;
@@ -235,7 +266,7 @@ header {
 
     p {
       width: 52vw;
-      font-family: "Roboto", sans-serif;
+      font-family: $font-roboto;
       font-size: 0.97vw;
       color: #999999;
       display: block;
@@ -281,7 +312,7 @@ header {
     padding: 0 1.6vw 0 1.6vw;
 
     h6 {
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-size: 3.75vw;
       font-weight: bold;
       margin-bottom: 3.1vh;
@@ -289,7 +320,7 @@ header {
 
     p {
       font-size: 0.74vw;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
     }
   }
 }
@@ -301,13 +332,13 @@ header {
 
   .wrapper {
     h5 {
-      font-family: "Kaushan Script", cursive;
+      font-family: $h5-font-cursive;
       font-size: 1.25vw;
     }
 
     h2 {
       font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-weight: bold;
       line-height: 1.6;
       margin: 1.1vh 0 4.2vh 0;
@@ -342,7 +373,7 @@ header {
       text-align: left;
 
       h3 {
-        font-family: "Montserrat", sans-serif;
+        font-family: $font-montserrat;
         font-size: 0.73vw;
         font-size: bold;
         color: #333333;
@@ -352,7 +383,7 @@ header {
       }
 
       p {
-        font-family: "Roboto", sans-serif;
+        font-family: $font-roboto;
         font-size: 0.7vw;
         color: #999999;
         line-height: 1.6;
@@ -392,13 +423,13 @@ header {
 
   .wrapper {
     h5 {
-      font-family: "Kaushan Script", cursive;
+      font-family: $h5-font-cursive;
       font-size: 1.25vw;
     }
 
     h2 {
       font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-weight: bold;
       line-height: 1.6;
       position: relative;
@@ -434,18 +465,18 @@ header {
 
   .wrapper {
     h5 {
-      font-family: "Kaushan Script", cursive;
+      font-family: $h5-font-cursive;
       font-size: 1.25vw;
     }
 
     h2 {
       font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-weight: bold;
       line-height: 1.6;
       position: relative;
       padding-bottom: 50px;
-      
+
       &::after {
         content: "";
         position: absolute;
@@ -461,7 +492,7 @@ header {
 
     p {
       width: 52vw;
-      font-family: "Roboto", sans-serif;
+      font-family: $font-roboto;
       font-size: 0.97vw;
       color: #999999;
       display: block;
@@ -476,15 +507,14 @@ header {
       height: 450px;
 
       .left {
+        background-image: url("./images/photography.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
         display: inline-block;
         width: 40%;
+        height: 400px;
         margin-right: 5%;
         vertical-align: top;
-
-        img {
-          width: 100%;
-          height: 400px;
-        }
       }
 
       .right {
@@ -527,16 +557,37 @@ header {
           border-top: none;
 
           p {
-            padding: 15px;
+            padding: 0 15px 0 15px;
             font-style: italic;
             font-size: 15px;
             line-height: 1.6;
             width: 29vw;
-            margin-bottom: 0;
-            margin-top: 0;
+            margin-bottom: 2vh;
+            margin-top: 2vh;
             height: 132px;
-            overflow: hidden;
+            overflow: auto;
           }
+        }
+        // .custom-scroll {
+        //   overflow: auto;
+
+        // }
+        ::-webkit-scrollbar {
+          width: 0.6vw;
+          height: 9vh;
+        }
+
+        ::-webkit-scrollbar-track {
+          background-color: #f5f5f5;
+          border-radius: 20px;
+          padding-top: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+          background-color: #95e1d3;
+          border-radius: 20px;
+          // border: 6px solid transparent;
+          background-clip: content-box;
         }
 
         div:nth-child(3) {
@@ -549,84 +600,98 @@ header {
 
 .slides {
   background-color: #f8f8f8;
-  height: 33vh;
-  margin-bottom: 12vh;
-  text-align: center;
-  position: relative;
+  padding: 3.65vw 0;
+
+  // height: 33vh;
+  // margin-bottom: 12vh;
+  // text-align: center;
+  // position: relative;
 
   .wrapper {
-    .center > div {
+    .first {
+      width: auto;
+      transform: rotate(90deg);
+    }
+    // display: inline-block;
+    // transform: translateY(50%);
+
+    div,
+    a {
       display: inline-block;
-      transform: translateY(50%);
+      font-size: 24px;
+      line-height: 36px;
+      font-style: italic;
+      font-family: $font-roboto;
+      color: #333333;
+      vertical-align: middle;
+      text-align: left;
+      padding: 0 44px;
+    }
 
-      p {
-        font-family: "Roboto", sans-serif;
-        font-style: italic;
-        font-weight: lighter;
-        line-height: 1.8;
-        font-size: 1.25vw;
-        color: #999999;
-        width: 38.8vw;
-        text-align: left;
-        margin-left: 3.3vw;
-        vertical-align: top;
-      }
+    .second {
+      width: auto;
+      border: 3px solid #95e1d3;
+      padding: 44px;
+    }
 
-      .line-red {
-        display: inline-block;
-        background-color: #f7adad;
-        width: 3.1vw;
-        height: 0.3vh;
-        margin-top: 3vh;
-        margin-right: 0.52vw;
-      }
+    .third {
+      width: 60%;
+      // padding-right: 40px;
 
       h5 {
-        display: inline-block;
-        font-family: "Kaushan Script", cursive;
-        font-size: 1.25vw;
+        font-family: $h5-font-cursive;
+        font-size: 24px;
+        color: #333333;
+        font-style: normal;
+        position: relative;
+        padding-left: 6.77vw;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 3.125vw;
+          right: 0;
+          bottom: 15px;
+          // margin: 0 auto;
+          width: 60px;
+          height: 3px;
+          background-color: #f38181;
+        }
       }
     }
-    .chat-border {
-      border: 3px solid #95e1d3;
-      padding: 45px;
+
+    .fourth {
+      width: auto;
+      transform: rotate(270deg);
     }
-    .first {
+
+    p {
+      font-family: $font-roboto;
+      font-style: italic;
+      font-weight: lighter;
+      line-height: 1.8;
+      font-size: 1.25vw;
+      color: #999999;
+      width: 38.8vw;
       text-align: left;
       margin-left: 3.3vw;
-
-      img {
-        margin-right: 5px;
-        margin-bottom: 5px;
-      }
-    }
-
-    div#left-arrow {
-      transform: rotate(90deg);
-      position: absolute;
-      left: 10%;
-      top: 50%;
-    }
-
-    div#right-arrow {
-      transform: rotate(270deg);
-      position: absolute;
-      right: 10%;
-      top: 50%;
+      vertical-align: top;
     }
   }
 }
 
 .ourTeam {
+  margin-top: 12vh;
+
   .wrapper {
     h5 {
-      font-family: "Kaushan Script", cursive;
+      font-family: $h5-font-cursive;
       font-size: 1.25vw;
     }
 
     h2 {
       font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-weight: bold;
       line-height: 1.6;
       position: relative;
@@ -654,7 +719,7 @@ header {
 
     p {
       width: 52vw;
-      font-family: "Roboto", sans-serif;
+      font-family: $font-roboto;
       font-size: 0.97vw;
       color: #999999;
       display: block;
@@ -678,14 +743,14 @@ header {
 
       h3 {
         margin: 30px 0 15px 0;
-        font-family: "Montserrat", sans-serif;
+        font-family: $font-montserrat;
         font-size: 14px;
         color: #333333;
         letter-spacing: 1px;
       }
 
       p {
-        font-family: "Roboto", sans-serif;
+        font-family: $font-roboto;
         font-size: 15px;
         font-weight: lighter;
         font-style: italic;
@@ -753,13 +818,13 @@ header {
 
   .wrapper {
     h5 {
-      font-family: "Kaushan Script", cursive;
+      font-family: $h5-font-cursive;
       font-size: 1.25vw;
     }
 
     h2 {
       font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-weight: bold;
       line-height: 1.6;
       position: relative;
@@ -777,7 +842,6 @@ header {
         background-color: #f38181;
       }
     }
-    
 
     .line-red {
       background-color: #f7adad;
@@ -788,7 +852,7 @@ header {
 
     p {
       width: 52vw;
-      font-family: "Roboto", sans-serif;
+      font-family: $font-roboto;
       font-size: 0.97vw;
       color: #999999;
       display: block;
@@ -907,10 +971,7 @@ header {
   .wrapper {
     .first {
       width: auto;
-
-      img {
-        transform: rotate(90deg);
-      }
+      transform: rotate(90deg);
     }
 
     a {
@@ -923,7 +984,7 @@ header {
       font-size: 24px;
       line-height: 36px;
       font-style: italic;
-      font-family: "Roboto", sans-serif;
+      font-family: $font-roboto;
       color: #999999;
       vertical-align: middle;
       text-align: left;
@@ -938,7 +999,7 @@ header {
       padding-right: 40px;
 
       h6 {
-        font-family: "Kaushan Script", cursive;
+        font-family: $h5-font-cursive;
         color: black;
         font-size: 24px;
         padding-left: 70px;
@@ -975,14 +1036,14 @@ header {
     width: 70%;
 
     h5 {
-      font-family: "Kaushan Script", cursive;
+      font-family: $h5-font-cursive;
       font-size: 1.25vw;
       padding-top: 9.3vh;
     }
 
     h2 {
       font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-weight: bold;
       position: relative;
       line-height: 1.6;
@@ -1015,7 +1076,6 @@ header {
       .second {
         display: inline-block;
         width: 50%;
-        
 
         div img {
           margin-top: -2vh;
@@ -1034,14 +1094,11 @@ header {
 
         .first {
           margin-right: 2%;
-         
         }
       }
 
-     
-
       h3 {
-        font-family: "Monserrat", sans-serif;
+        font-family: $font-montserrat;
         color: #333333;
         font-size: 14px;
         margin-bottom: 1.5vh;
@@ -1050,7 +1107,7 @@ header {
       .sloping {
         font-size: 15px;
         color: #333333;
-        font-family: "Roboto", sans-serif;
+        font-family: $font-roboto;
         font-style: italic;
         position: relative;
         padding-bottom: 1vh;
@@ -1069,6 +1126,7 @@ header {
       }
 
       p {
+        font-family: $font-roboto;
         font-size: 0.78vw;
         color: #999999;
         line-height: 1.5rem;
@@ -1080,14 +1138,14 @@ header {
 .blog {
   .wrapper {
     h5 {
-      font-family: "Kaushan Script", cursive;
+      font-family: $h5-font-cursive;
       font-size: 1.25vw;
       padding-top: 90px;
     }
 
     h2 {
       font-size: 1.56vw;
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-weight: bold;
       position: relative;
       line-height: 1.6;
@@ -1131,7 +1189,7 @@ header {
 
         h3 {
           font-size: 14px;
-          font-family: "Montserrat";
+          font-family: $font-montserrat;
           color: #333333;
           text-align: left;
           margin: 20px 0 20px 0;
@@ -1140,7 +1198,7 @@ header {
         p {
           font-size: 15px;
           line-height: 1.5;
-          font-family: "Roboto", sans-serif;
+          font-family: $font-roboto;
           color: #999999;
           border-bottom: #999999 1px solid;
           padding-bottom: 15px;
@@ -1184,7 +1242,7 @@ header {
           display: inline-block;
           margin-left: 0.3vw;
           font-size: 0.95vw;
-          font-family: "Roboto", sans-serif;
+          font-family: $font-roboto;
           color: #999999;
         }
       }
@@ -1216,7 +1274,7 @@ header {
     }
 
     p {
-      font-family: "Montserrat", sans-serif;
+      font-family: $font-montserrat;
       font-size: 24px;
       font-weight: bold;
       position: relative;
@@ -1246,7 +1304,6 @@ footer {
   .wrapper {
     text-align: left;
 
-
     > div {
       vertical-align: top;
     }
@@ -1260,7 +1317,7 @@ footer {
       width: 40%;
 
       h2 {
-        font-family: "Monserrat", sans-serif;
+        font-family: $font-montserrat;
         font-size: 2.4vw;
         font-weight: bold;
         color: #cccccc;
@@ -1269,7 +1326,7 @@ footer {
 
       p {
         font-size: 0.78vw;
-        font-family: "Robot", sans-serif;
+        font-family: $font-roboto;
         color: #999999;
         margin-bottom: 3.5vh;
         line-height: 1.9;
@@ -1277,7 +1334,7 @@ footer {
 
       h3 {
         color: #333333;
-        font-family: "Monserrat", sans-serif;
+        font-family: $font-montserrat;
         font-size: 1.04vw;
         font-weight: bold;
         padding-bottom: 1.54vh;
@@ -1291,7 +1348,7 @@ footer {
 
       h4 {
         display: inline-block;
-        font-family: "Roboto", sans-serif;
+        font-family: $font-roboto;
         font-size: 15px;
         font-style: italic;
         font-weight: lighter;
@@ -1315,7 +1372,7 @@ footer {
           width: 47%;
           color: #cccccc;
           font-size: 15px;
-          font-family: "Roboto", sans-serif;
+          font-family: $font-roboto;
           font-style: italic;
           font-weight: lighter;
         }
@@ -1327,7 +1384,7 @@ footer {
           color: #ffffff;
           font-size: 14px;
           font-weight: bold;
-          font-family: "Montserrat", sans-serif;
+          font-family: $font-montserrat;
           padding: 0.83vw;
         }
       }
@@ -1346,17 +1403,15 @@ footer {
 
           h3 {
             color: #333333;
-            font-family: "Monserrat", sans-serif;
+            font-family: $font-montserrat;
             font-size: 13px;
             text-transform: uppercase;
             line-height: 1.4;
-            
           }
 
           p {
             color: #999999;
             font-size: 13px;
-        
           }
 
           img {
@@ -1369,7 +1424,7 @@ footer {
 
       h2 {
         color: #333333;
-        font-family: "Monserrat", sans-serif;
+        font-family: $font-montserrat;
         font-size: 0.729vw;
         margin-bottom: 3.5vh;
       }
@@ -1382,20 +1437,19 @@ footer {
 
       h3 {
         color: #333333;
-        font-family: "Monserrat", sans-serif;
+        font-family: $font-montserrat;
         font-size: 0.73vw;
         margin-bottom: 3.5vh;
       }
 
       h4 {
         font-size: 13px;
-        font-family: "Roboto", sans-serif;
+        font-family: $font-roboto;
         font-style: italic;
         color: #333333;
         padding-top: 1.05vw;
       }
 
-     
       img {
         max-width: 4.68vw;
       }
@@ -1404,7 +1458,7 @@ footer {
     .bottom p {
       text-align: center;
       font-size: 0.73vw;
-      font-family: "Monserrat", sans-serif;
+      font-family: $font-montserrat;
       color: #000000;
       padding: 2.6vh 0 2.6vh 0;
       border-top: 2px solid #eaeaea;

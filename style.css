@@ -1,9 +1,3 @@
-body {
-  font-family: "Kaushan Script", cursive;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
-}
-
 body .wrapper {
   width: 75%;
   display: block;
@@ -12,7 +6,21 @@ body .wrapper {
   font-size: 0;
 }
 
-body > a {
+body .wrapper > h2 {
+  font-size: 1.56vw;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.6;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+body .wrapper > h5 {
+  font-family: "Kaushan Script";
+  font-size: 1.25vw;
+}
+
+body .wrapper > a {
   text-decoration: none;
   cursor: pointer;
 }
@@ -20,6 +28,7 @@ body > a {
 header {
   background-image: url("./images/eagle.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-size: 100% 100%;
   height: 100vh;
   color: white;
@@ -36,7 +45,7 @@ header nav:first-child {
 header nav:first-child .logo {
   width: 45%;
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.9vw;
 }
@@ -56,6 +65,7 @@ header nav:first-child ul li {
   display: inline-block;
   text-align: center;
   width: 14%;
+  font-family: "Montserrat";
   font-size: 0.65vw;
   padding-bottom: 0.8vh;
   cursor: pointer;
@@ -68,37 +78,44 @@ header nav:first-child ul li:hover {
   text-underline-offset: 1vh;
 }
 
-header h2 {
-  font-family: "Kaushan Script", cursive;
+header h5 {
+  font-family: "Kaushan Script";
   text-align: center;
   font-size: 3.75vw;
   margin-bottom: 4vh;
 }
 
 header h1 {
+  font-family: "Montserrat";
   font-size: 7.8vw;
   font-weight: bold;
   text-align: center;
+  position: relative;
+  padding-bottom: 5vh;
 }
 
-header .line {
-  display: block;
-  margin: auto;
-  width: 3.125vw;
-  height: 0.3vh;
-  margin-top: 5.1vh;
-  margin-bottom: 5.1vh;
+header h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 6vh;
+  margin: 0 auto;
+  height: 0.4vh;
+  background: #ffffff;
 }
 
 header input {
-  background-color: #efc888;
+  background-color: transparent;
   border: 2px solid #ffffff;
   color: #ffffff;
   font-size: 0.72vw;
+  font-family: "Montserrat";
   display: block;
   margin: auto;
-  margin-top: 1vh;
-  margin-bottom: 8vh;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
   width: 8.38vw;
   height: 4.3vh;
   cursor: pointer;
@@ -201,14 +218,9 @@ header nav:last-child .second-row:hover {
   height: auto;
 }
 
-.about .wrapper h5 {
-  font-family: "Kaushan Script", cursive;
-  font-size: 1.25vw;
-}
-
 .about .wrapper h2 {
   font-size: 1.56vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-weight: bold;
   line-height: 1.6;
   position: relative;
@@ -284,7 +296,7 @@ header nav:last-child .second-row:hover {
 }
 
 .numbers .row div h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 3.75vw;
   font-weight: bold;
   margin-bottom: 3.1vh;
@@ -292,7 +304,7 @@ header nav:last-child .second-row:hover {
 
 .numbers .row div p {
   font-size: 0.74vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
 
 .services {
@@ -302,13 +314,13 @@ header nav:last-child .second-row:hover {
 }
 
 .services .wrapper h5 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script";
   font-size: 1.25vw;
 }
 
 .services .wrapper h2 {
   font-size: 1.56vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-weight: bold;
   line-height: 1.6;
   margin: 1.1vh 0 4.2vh 0;
@@ -344,7 +356,7 @@ header nav:last-child .second-row:hover {
 }
 
 .services .wrapper div h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 0.73vw;
   font-size: bold;
   color: #333333;
@@ -391,13 +403,13 @@ header nav:last-child .second-row:hover {
 }
 
 .design .wrapper h5 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script";
   font-size: 1.25vw;
 }
 
 .design .wrapper h2 {
   font-size: 1.56vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-weight: bold;
   line-height: 1.6;
   position: relative;
@@ -431,13 +443,13 @@ header nav:last-child .second-row:hover {
 }
 
 .weDo .wrapper h5 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script";
   font-size: 1.25vw;
 }
 
 .weDo .wrapper h2 {
   font-size: 1.56vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-weight: bold;
   line-height: 1.6;
   position: relative;
@@ -474,15 +486,14 @@ header nav:last-child .second-row:hover {
 }
 
 .weDo .wrapper .creativity .left {
+  background-image: url("./images/photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: inline-block;
   width: 40%;
+  height: 400px;
   margin-right: 5%;
   vertical-align: top;
-}
-
-.weDo .wrapper .creativity .left img {
-  width: 100%;
-  height: 400px;
 }
 
 .weDo .wrapper .creativity .right {
@@ -529,15 +540,32 @@ header nav:last-child .second-row:hover {
 }
 
 .weDo .wrapper .creativity .right div:nth-child(2) p {
-  padding: 15px;
+  padding: 0 15px 0 15px;
   font-style: italic;
   font-size: 15px;
   line-height: 1.6;
   width: 29vw;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
   height: 132px;
-  overflow: hidden;
+  overflow: auto;
+}
+
+.weDo .wrapper .creativity .right ::-webkit-scrollbar {
+  width: 0.6vw;
+  height: 9vh;
+}
+
+.weDo .wrapper .creativity .right ::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+.weDo .wrapper .creativity .right ::-webkit-scrollbar-thumb {
+  background-color: #95e1d3;
+  border-radius: 20px;
+  background-clip: content-box;
 }
 
 .weDo .wrapper .creativity .right div:nth-child(3) {
@@ -546,19 +574,65 @@ header nav:last-child .second-row:hover {
 
 .slides {
   background-color: #f8f8f8;
-  height: 33vh;
-  margin-bottom: 12vh;
-  text-align: center;
-  position: relative;
+  padding: 3.65vw 0;
 }
 
-.slides .wrapper .center > div {
+.slides .wrapper .first {
+  width: auto;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.slides .wrapper div,
+.slides .wrapper a {
   display: inline-block;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
+  font-size: 24px;
+  line-height: 36px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  vertical-align: middle;
+  text-align: left;
+  padding: 0 44px;
 }
 
-.slides .wrapper .center > div p {
+.slides .wrapper .second {
+  width: auto;
+  border: 3px solid #95e1d3;
+  padding: 44px;
+}
+
+.slides .wrapper .third {
+  width: 60%;
+}
+
+.slides .wrapper .third h5 {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  color: #333333;
+  font-style: normal;
+  position: relative;
+  padding-left: 6.77vw;
+}
+
+.slides .wrapper .third h5::after {
+  content: "";
+  position: absolute;
+  left: 3.125vw;
+  right: 0;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.slides .wrapper .fourth {
+  width: auto;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.slides .wrapper p {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: lighter;
@@ -571,60 +645,18 @@ header nav:last-child .second-row:hover {
   vertical-align: top;
 }
 
-.slides .wrapper .center > div .line-red {
-  display: inline-block;
-  background-color: #f7adad;
-  width: 3.1vw;
-  height: 0.3vh;
-  margin-top: 3vh;
-  margin-right: 0.52vw;
-}
-
-.slides .wrapper .center > div h5 {
-  display: inline-block;
-  font-family: "Kaushan Script", cursive;
-  font-size: 1.25vw;
-}
-
-.slides .wrapper .chat-border {
-  border: 3px solid #95e1d3;
-  padding: 45px;
-}
-
-.slides .wrapper .first {
-  text-align: left;
-  margin-left: 3.3vw;
-}
-
-.slides .wrapper .first img {
-  margin-right: 5px;
-  margin-bottom: 5px;
-}
-
-.slides .wrapper div#left-arrow {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  position: absolute;
-  left: 10%;
-  top: 50%;
-}
-
-.slides .wrapper div#right-arrow {
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
-  position: absolute;
-  right: 10%;
-  top: 50%;
+.ourTeam {
+  margin-top: 12vh;
 }
 
 .ourTeam .wrapper h5 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script";
   font-size: 1.25vw;
 }
 
 .ourTeam .wrapper h2 {
   font-size: 1.56vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-weight: bold;
   line-height: 1.6;
   position: relative;
@@ -681,7 +713,7 @@ header nav:last-child .second-row:hover {
 .ourTeam .wrapper .center h3,
 .ourTeam .wrapper .right h3 {
   margin: 30px 0 15px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 14px;
   color: #333333;
   letter-spacing: 1px;
@@ -772,13 +804,13 @@ header nav:last-child .second-row:hover {
 }
 
 .ourWorks .wrapper h5 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script";
   font-size: 1.25vw;
 }
 
 .ourWorks .wrapper h2 {
   font-size: 1.56vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-weight: bold;
   line-height: 1.6;
   position: relative;
@@ -918,9 +950,6 @@ header nav:last-child .second-row:hover {
 
 .slides2 .wrapper .first {
   width: auto;
-}
-
-.slides2 .wrapper .first img {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -953,7 +982,7 @@ header nav:last-child .second-row:hover {
 }
 
 .slides2 .wrapper .third h6 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script";
   color: black;
   font-size: 24px;
   padding-left: 70px;
@@ -990,14 +1019,14 @@ header nav:last-child .second-row:hover {
 }
 
 .clients .wrapper h5 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script";
   font-size: 1.25vw;
   padding-top: 9.3vh;
 }
 
 .clients .wrapper h2 {
   font-size: 1.56vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-weight: bold;
   position: relative;
   line-height: 1.6;
@@ -1068,7 +1097,7 @@ header nav:last-child .second-row:hover {
 
 .clients .wrapper .top-row h3,
 .clients .wrapper .bottom-row h3 {
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat";
   color: #333333;
   font-size: 14px;
   margin-bottom: 1.5vh;
@@ -1099,20 +1128,21 @@ header nav:last-child .second-row:hover {
 
 .clients .wrapper .top-row p,
 .clients .wrapper .bottom-row p {
+  font-family: "Roboto", sans-serif;
   font-size: 0.78vw;
   color: #999999;
   line-height: 1.5rem;
 }
 
 .blog .wrapper h5 {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Kaushan Script";
   font-size: 1.25vw;
   padding-top: 90px;
 }
 
 .blog .wrapper h2 {
   font-size: 1.56vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-weight: bold;
   position: relative;
   line-height: 1.6;
@@ -1240,7 +1270,7 @@ header nav:last-child .second-row:hover {
 }
 
 .map a p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 24px;
   font-weight: bold;
   position: relative;
@@ -1285,7 +1315,7 @@ footer .wrapper .left {
 }
 
 footer .wrapper .left h2 {
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 2.4vw;
   font-weight: bold;
   color: #cccccc;
@@ -1294,7 +1324,7 @@ footer .wrapper .left h2 {
 
 footer .wrapper .left p {
   font-size: 0.78vw;
-  font-family: "Robot", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #999999;
   margin-bottom: 3.5vh;
   line-height: 1.9;
@@ -1302,7 +1332,7 @@ footer .wrapper .left p {
 
 footer .wrapper .left h3 {
   color: #333333;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 1.04vw;
   font-weight: bold;
   padding-bottom: 1.54vh;
@@ -1353,7 +1383,7 @@ footer .wrapper .left form button {
   color: #ffffff;
   font-size: 14px;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   padding: 0.83vw;
 }
 
@@ -1371,7 +1401,7 @@ footer .wrapper .center a > div {
 
 footer .wrapper .center a > div h3 {
   color: #333333;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 13px;
   text-transform: uppercase;
   line-height: 1.4;
@@ -1390,7 +1420,7 @@ footer .wrapper .center a > div img {
 
 footer .wrapper .center h2 {
   color: #333333;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 0.729vw;
   margin-bottom: 3.5vh;
 }
@@ -1403,7 +1433,7 @@ footer .wrapper .right {
 
 footer .wrapper .right h3 {
   color: #333333;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 0.73vw;
   margin-bottom: 3.5vh;
 }
@@ -1423,7 +1453,7 @@ footer .wrapper .right img {
 footer .wrapper .bottom p {
   text-align: center;
   font-size: 0.73vw;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat";
   color: #000000;
   padding: 2.6vh 0 2.6vh 0;
   border-top: 2px solid #eaeaea;
