@@ -190,7 +190,7 @@ header nav:last-child .second-row:hover {
 
 .about .wrapper a .super-team h3 {
   font-size: 1.125vw;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
@@ -384,7 +384,8 @@ header nav:last-child .second-row:hover {
 .design .wrapper div img {
   display: block;
   margin: auto;
-  margin-top: 53px;
+  margin-top: 5.5%;
+  padding-left: 7%;
 }
 
 .weDo {
@@ -1138,7 +1139,6 @@ header nav:last-child .second-row:hover {
   background-size: cover;
   height: 27vh;
   width: 100%;
-  margin-bottom: 12vh;
 }
 
 .map a {
@@ -1158,7 +1158,7 @@ header nav:last-child .second-row:hover {
 }
 
 .map a p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: bold;
   position: relative;
@@ -1166,7 +1166,7 @@ header nav:last-child .second-row:hover {
 }
 
 .map a p::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -1176,5 +1176,178 @@ header nav:last-child .second-row:hover {
   width: 60px;
   height: 3px;
   background-color: #f38181;
+}
+
+footer {
+  font-size: 0;
+  background: #f8f8f8;
+  padding-top: 10vh;
+}
+
+footer .wrapper {
+  text-align: left;
+  width: 70%;
+}
+
+footer .wrapper > div {
+  vertical-align: top;
+}
+
+footer .wrapper a {
+  text-decoration: none;
+}
+
+footer .wrapper .left {
+  display: inline-block;
+  margin-right: 2vw;
+  width: 40%;
+}
+
+footer .wrapper .left h2 {
+  font-family: "Monserrat", sans-serif;
+  font-size: 2.4vw;
+  font-weight: bold;
+  color: #cccccc;
+  margin-bottom: 3.5vh;
+}
+
+footer .wrapper .left p {
+  font-size: 0.78vw;
+  font-family: "Robot", sans-serif;
+  color: #999999;
+  margin-bottom: 3.5vh;
+  line-height: 1.9;
+}
+
+footer .wrapper .left h3 {
+  color: #333333;
+  font-family: "Monserrat", sans-serif;
+  font-size: 1.04vw;
+  font-weight: bold;
+  padding-bottom: 1.54vh;
+  border-bottom: 2px solid #eaeaea;
+}
+
+footer .wrapper .left h3 span {
+  font-size: 0.75vw;
+  letter-spacing: 0.5px;
+}
+
+footer .wrapper .left h4 {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #999999;
+  padding-top: 1.54vh;
+  width: auto;
+}
+
+footer .wrapper .left img {
+  display: inline-block;
+  margin-left: 0.83vw;
+  width: auto;
+}
+
+footer .wrapper .left form {
+  margin: 3.92vh 0 4.5vh 0;
+}
+
+footer .wrapper .left form input {
+  padding: 0.83vw;
+  border: 1px solid #ebebeb;
+  width: 47%;
+  color: #cccccc;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+footer .wrapper .left form button {
+  background: #95e1d3;
+  border: 1px solid #95e1d3;
+  width: 30%;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.83vw;
+}
+
+footer .wrapper .center {
+  display: inline-block;
+  width: 30%;
+}
+
+footer .wrapper .center a > div {
+  padding: 1.28vh 0 1.5vw 1.3vw;
+  display: inline-block;
+  width: 60%;
+}
+
+footer .wrapper .center a > div h3 {
+  color: #333333;
+  font-family: "Monserrat", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+footer .wrapper .center a > div p {
+  color: #999999;
+  font-size: 13px;
+}
+
+footer .wrapper .center a > div img {
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+}
+
+footer .wrapper .center h2 {
+  color: #333333;
+  font-family: "Monserrat", sans-serif;
+  font-size: 0.729vw;
+  margin-bottom: 3.5vh;
+}
+
+footer .wrapper .right {
+  display: inline-block;
+  width: 25%;
+  margin-left: 1.46vw;
+}
+
+footer .wrapper .right h3 {
+  color: #333333;
+  font-family: "Monserrat", sans-serif;
+  font-size: 0.729vw;
+  margin-bottom: 3.5vh;
+}
+
+footer .wrapper .right h4 {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: #333333;
+  padding-top: 1.05vw;
+}
+
+footer .wrapper .right img {
+  max-width: 90px;
+}
+
+footer .wrapper .bottom p {
+  text-align: center;
+  font-size: 0.73vw;
+  font-family: "Monserrat", sans-serif;
+  color: #000000;
+  padding: 2.6vh 0 2.6vh 0;
+  border-top: 2px solid #eaeaea;
+}
+
+footer .wrapper .bottom p span {
+  color: #f38787;
 }
 /*# sourceMappingURL=style.css.map */
