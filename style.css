@@ -211,6 +211,20 @@ header nav:last-child .second-row:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.6;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.about .wrapper h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
 }
 
 .about .wrapper .line-red {
@@ -298,6 +312,20 @@ header nav:last-child .second-row:hover {
   font-weight: bold;
   line-height: 1.6;
   margin: 1.1vh 0 4.2vh 0;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.services .wrapper h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
 }
 
 .services .wrapper .line-red {
@@ -372,19 +400,26 @@ header nav:last-child .second-row:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.6;
+  position: relative;
+  padding-bottom: 50px;
 }
 
-.design .wrapper .line-red {
-  background-color: #f7adad;
-  width: 4vw;
-  height: 0.3vh;
-  margin-top: 4.02vh;
+.design .wrapper h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
 }
 
 .design .wrapper div img {
   display: block;
   margin: auto;
-  margin-top: 5.5%;
+  margin-top: 5%;
   padding-left: 7%;
 }
 
@@ -405,13 +440,20 @@ header nav:last-child .second-row:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.6;
+  position: relative;
+  padding-bottom: 50px;
 }
 
-.weDo .wrapper .line-red {
-  background-color: #f7adad;
-  width: 4vw;
-  height: 0.3vh;
-  margin-top: 4.02vh;
+.weDo .wrapper h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
 }
 
 .weDo .wrapper p {
@@ -585,6 +627,20 @@ header nav:last-child .second-row:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.6;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.ourTeam .wrapper h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
 }
 
 .ourTeam .wrapper .line-red {
@@ -660,8 +716,8 @@ header nav:last-child .second-row:hover {
 .ourTeam .wrapper .left .member:hover,
 .ourTeam .wrapper .center .member:hover,
 .ourTeam .wrapper .right .member:hover {
-  -webkit-box-shadow: 10px 10px 7px #95e1d3;
-          box-shadow: 10px 10px 7px #95e1d3;
+  -webkit-box-shadow: 10px 10px #95e1d3;
+          box-shadow: 10px 10px #95e1d3;
   bottom: 10px;
   right: 10px;
 }
@@ -725,6 +781,20 @@ header nav:last-child .second-row:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1.6;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.ourWorks .wrapper h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 15px;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
 }
 
 .ourWorks .wrapper .line-red {
@@ -914,10 +984,15 @@ header nav:last-child .second-row:hover {
   background-size: cover;
 }
 
+.clients .wrapper {
+  padding-left: 10px;
+  width: 70%;
+}
+
 .clients .wrapper h5 {
   font-family: "Kaushan Script", cursive;
   font-size: 1.25vw;
-  padding-top: 90px;
+  padding-top: 9.3vh;
 }
 
 .clients .wrapper h2 {
@@ -960,11 +1035,18 @@ header nav:last-child .second-row:hover {
   width: 50%;
 }
 
+.clients .wrapper .top-row .first div img,
+.clients .wrapper .top-row .second div img,
+.clients .wrapper .bottom-row .first div img,
+.clients .wrapper .bottom-row .second div img {
+  margin-top: -2vh;
+}
+
 .clients .wrapper .top-row .first :first-child,
 .clients .wrapper .top-row .second :first-child,
 .clients .wrapper .bottom-row .first :first-child,
 .clients .wrapper .bottom-row .second :first-child {
-  width: 29%;
+  width: 30%;
   display: inline-block;
   vertical-align: top;
 }
@@ -986,10 +1068,10 @@ header nav:last-child .second-row:hover {
 
 .clients .wrapper .top-row h3,
 .clients .wrapper .bottom-row h3 {
-  font-family: "Monserat", sans-serif;
+  font-family: "Monserrat", sans-serif;
   color: #333333;
   font-size: 14px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5vh;
 }
 
 .clients .wrapper .top-row .sloping,
@@ -999,8 +1081,8 @@ header nav:last-child .second-row:hover {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   position: relative;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  padding-bottom: 1vh;
+  margin-bottom: 1.5vh;
 }
 
 .clients .wrapper .top-row .sloping::after,
@@ -1017,7 +1099,7 @@ header nav:last-child .second-row:hover {
 
 .clients .wrapper .top-row p,
 .clients .wrapper .bottom-row p {
-  font-size: 15px;
+  font-size: 0.78vw;
   color: #999999;
   line-height: 1.5rem;
 }
@@ -1124,10 +1206,10 @@ header nav:last-child .second-row:hover {
 
 .blog .wrapper div:last-child a p {
   border-bottom: none;
-  font-size: 0.95rem;
+  font-size: 0.95vw;
   display: inline-block;
-  margin-left: 0.3rem;
-  font-size: 0.95rem;
+  margin-left: 0.3vw;
+  font-size: 0.95vw;
   font-family: "Roboto", sans-serif;
   color: #999999;
 }
@@ -1186,7 +1268,6 @@ footer {
 
 footer .wrapper {
   text-align: left;
-  width: 70%;
 }
 
 footer .wrapper > div {
@@ -1282,8 +1363,9 @@ footer .wrapper .center {
 }
 
 footer .wrapper .center a > div {
-  padding: 1.28vh 0 1.5vw 1.3vw;
+  padding: 1.5vw 0 1.6vw 1.3vw;
   display: inline-block;
+  vertical-align: top;
   width: 60%;
 }
 
@@ -1316,13 +1398,13 @@ footer .wrapper .center h2 {
 footer .wrapper .right {
   display: inline-block;
   width: 25%;
-  margin-left: 1.46vw;
+  margin-left: 1.45vw;
 }
 
 footer .wrapper .right h3 {
   color: #333333;
   font-family: "Monserrat", sans-serif;
-  font-size: 0.729vw;
+  font-size: 0.73vw;
   margin-bottom: 3.5vh;
 }
 
@@ -1335,7 +1417,7 @@ footer .wrapper .right h4 {
 }
 
 footer .wrapper .right img {
-  max-width: 90px;
+  max-width: 4.68vw;
 }
 
 footer .wrapper .bottom p {

@@ -210,6 +210,20 @@ header {
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
       line-height: 1.6;
+      position: relative;
+      padding-bottom: 50px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 15px;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+      }
     }
 
     .line-red {
@@ -297,6 +311,20 @@ header {
       font-weight: bold;
       line-height: 1.6;
       margin: 1.1vh 0 4.2vh 0;
+      position: relative;
+      padding-bottom: 50px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 15px;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+      }
     }
 
     .line-red {
@@ -373,19 +401,26 @@ header {
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
       line-height: 1.6;
-    }
+      position: relative;
+      padding-bottom: 50px;
 
-    .line-red {
-      background-color: #f7adad;
-      width: 4vw;
-      height: 0.3vh;
-      margin-top: 4.02vh;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 15px;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+      }
     }
 
     div img {
       display: block;
       margin: auto;
-      margin-top: 5.5%;
+      margin-top: 5%;
       padding-left: 7%;
     }
   }
@@ -408,13 +443,20 @@ header {
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
       line-height: 1.6;
-    }
-
-    .line-red {
-      background-color: #f7adad;
-      width: 4vw;
-      height: 0.3vh;
-      margin-top: 4.02vh;
+      position: relative;
+      padding-bottom: 50px;
+      
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 15px;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+      }
     }
 
     p {
@@ -587,6 +629,20 @@ header {
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
       line-height: 1.6;
+      position: relative;
+      padding-bottom: 50px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 15px;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+      }
     }
 
     .line-red {
@@ -648,7 +704,7 @@ header {
         }
 
         &:hover {
-          box-shadow: 10px 10px 7px#95e1d3;
+          box-shadow: 10px 10px #95e1d3;
           bottom: 10px;
           right: 10px;
         }
@@ -706,7 +762,22 @@ header {
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
       line-height: 1.6;
+      position: relative;
+      padding-bottom: 50px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 15px;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+      }
     }
+    
 
     .line-red {
       background-color: #f7adad;
@@ -900,12 +971,13 @@ header {
   background-size: cover;
 
   .wrapper {
-    // padding-left: 30px;
+    padding-left: 10px;
+    width: 70%;
 
     h5 {
       font-family: "Kaushan Script", cursive;
       font-size: 1.25vw;
-      padding-top: 90px;
+      padding-top: 9.3vh;
     }
 
     h2 {
@@ -932,6 +1004,7 @@ header {
     .top-row {
       padding-top: 8vh;
     }
+
     .top-row,
     .bottom-row {
       text-align: left;
@@ -942,9 +1015,14 @@ header {
       .second {
         display: inline-block;
         width: 50%;
+        
+
+        div img {
+          margin-top: -2vh;
+        }
 
         :first-child {
-          width: 29%;
+          width: 30%;
           display: inline-block;
           vertical-align: top;
         }
@@ -956,14 +1034,17 @@ header {
 
         .first {
           margin-right: 2%;
+         
         }
       }
 
+     
+
       h3 {
-        font-family: "Monserat", sans-serif;
+        font-family: "Monserrat", sans-serif;
         color: #333333;
         font-size: 14px;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.5vh;
       }
 
       .sloping {
@@ -972,8 +1053,8 @@ header {
         font-family: "Roboto", sans-serif;
         font-style: italic;
         position: relative;
-        padding-bottom: 1rem;
-        margin-bottom: 1rem;
+        padding-bottom: 1vh;
+        margin-bottom: 1.5vh;
 
         &::after {
           content: "";
@@ -988,7 +1069,7 @@ header {
       }
 
       p {
-        font-size: 15px;
+        font-size: 0.78vw;
         color: #999999;
         line-height: 1.5rem;
       }
@@ -1099,10 +1180,10 @@ header {
 
         p {
           border-bottom: none;
-          font-size: 0.95rem;
+          font-size: 0.95vw;
           display: inline-block;
-          margin-left: 0.3rem;
-          font-size: 0.95rem;
+          margin-left: 0.3vw;
+          font-size: 0.95vw;
           font-family: "Roboto", sans-serif;
           color: #999999;
         }
@@ -1164,7 +1245,7 @@ footer {
 
   .wrapper {
     text-align: left;
-    width: 70%;
+
 
     > div {
       vertical-align: top;
@@ -1258,8 +1339,9 @@ footer {
 
       a {
         > div {
-          padding: 1.28vh 0 1.5vw 1.3vw;
+          padding: 1.5vw 0 1.6vw 1.3vw;
           display: inline-block;
+          vertical-align: top;
           width: 60%;
 
           h3 {
@@ -1274,6 +1356,7 @@ footer {
           p {
             color: #999999;
             font-size: 13px;
+        
           }
 
           img {
@@ -1295,12 +1378,12 @@ footer {
     .right {
       display: inline-block;
       width: 25%;
-      margin-left: 1.46vw;
+      margin-left: 1.45vw;
 
       h3 {
         color: #333333;
         font-family: "Monserrat", sans-serif;
-        font-size: 0.729vw;
+        font-size: 0.73vw;
         margin-bottom: 3.5vh;
       }
 
@@ -1312,8 +1395,9 @@ footer {
         padding-top: 1.05vw;
       }
 
+     
       img {
-        max-width: 90px;
+        max-width: 4.68vw;
       }
     }
 
