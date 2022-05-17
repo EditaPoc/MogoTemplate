@@ -1,5 +1,5 @@
 body .wrapper {
-  width: 75%;
+  width: 80%;
   display: block;
   margin: auto;
   text-align: center;
@@ -82,7 +82,7 @@ header h5 {
   font-family: "Kaushan Script";
   text-align: center;
   font-size: 3.75vw;
-  margin-bottom: 4vh;
+  margin-bottom: 2%;
 }
 
 header h1 {
@@ -114,8 +114,8 @@ header input {
   font-family: "Montserrat";
   display: block;
   margin: auto;
-  margin-top: 6vh;
-  margin-bottom: 6vh;
+  margin-top: 3%;
+  margin-bottom: 8%;
   width: 8.38vw;
   height: 4.3vh;
   cursor: pointer;
@@ -130,6 +130,7 @@ header nav:last-child {
   display: block;
   margin: auto;
   font-size: 0;
+  margin-top: 5.5%;
 }
 
 header nav:last-child .second-row {
@@ -143,7 +144,7 @@ header nav:last-child .second-row {
   text-align: left;
   color: #ffffff;
   padding-top: 1.2vh;
-  margin: 10vh 1.5vw 0 1.8vw;
+  margin: 0 1.5% 0 1.8%;
   cursor: pointer;
 }
 
@@ -161,6 +162,12 @@ header nav:last-child .second-row:hover {
   width: 14vw;
 }
 
+@media screen and (max-width: 1669px) {
+  header input {
+    margin-bottom: 14%;
+  }
+}
+
 .about {
   text-align: center;
   margin-top: 13.9vh;
@@ -169,7 +176,7 @@ header nav:last-child .second-row:hover {
 
 .about .wrapper a {
   display: inline-block;
-  width: 30%;
+  width: 25%;
   height: 27%;
   margin-right: 2vw;
   cursor: pointer;
@@ -249,7 +256,7 @@ header nav:last-child .second-row:hover {
 .about .wrapper p {
   width: 52vw;
   font-family: "Roboto", sans-serif;
-  font-size: 0.97vw;
+  font-size: 0.78vw;
   color: #999999;
   display: block;
   margin: auto;
@@ -259,7 +266,6 @@ header nav:last-child .second-row:hover {
 }
 
 .numbers {
-  display: block;
   background-color: #95e1d3;
   height: 28vh;
   margin-bottom: 11.24vh;
@@ -283,34 +289,37 @@ header nav:last-child .second-row:hover {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   border-left: 1px solid rgba(255, 255, 255, 0.2);
-  height: 271px;
+  height: 28vh;
   width: 1px;
 }
 
-.numbers .row div {
-  display: inline-block;
-  color: white;
-  width: 14%;
-  text-align: center;
-  padding: 0 1.6vw 0 1.6vw;
+.numbers .row .vertical:first-child {
+  padding-left: 0px;
 }
 
-.numbers .row div h6 {
+.numbers .row > div {
+  display: inline-block;
+  color: white;
   font-family: "Montserrat";
+  width: 14%;
+  text-align: center;
+  padding: 0 2% 0 2%;
+}
+
+.numbers .row > div h6 {
   font-size: 3.75vw;
   font-weight: bold;
   margin-bottom: 3.1vh;
 }
 
-.numbers .row div p {
+.numbers .row > div p {
   font-size: 0.74vw;
-  font-family: "Montserrat";
 }
 
 .services {
   text-align: center;
-  margin-top: 11.5vh;
-  margin-bottom: 11.5vh;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .services .wrapper h5 {
@@ -340,16 +349,6 @@ header nav:last-child .second-row:hover {
   background-color: #f38181;
 }
 
-.services .wrapper .line-red {
-  display: block;
-  margin: auto;
-  background-color: #f7adad;
-  width: 4vw;
-  height: 0.3vh;
-  margin-top: 4vh;
-  margin-bottom: 6.8vh;
-}
-
 .services .wrapper div {
   display: inline-block;
   text-align: left;
@@ -360,14 +359,14 @@ header nav:last-child .second-row:hover {
   font-size: 0.73vw;
   font-size: bold;
   color: #333333;
-  margin-bottom: 2vh;
-  margin-top: 2vh;
-  margin-left: 1vw;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 .services .wrapper div p {
   font-family: "Roboto", sans-serif;
-  font-size: 0.7vw;
+  font-size: 0.78vw;
   color: #999999;
   line-height: 1.6;
   margin-bottom: 3vh;
@@ -380,13 +379,13 @@ header nav:last-child .second-row:hover {
   width: 1.7vw;
   height: 3.3vh;
   margin-top: 2vh;
-  margin-right: 1vw;
-  margin-left: 2vw;
+  margin-right: 0.5vw;
+  margin-left: 3vw;
   vertical-align: top;
 }
 
 .services .wrapper .horizontal-line {
-  width: 85%;
+  width: 80%;
   height: 1px;
   border-bottom: 1px solid #f2f2f2;
   margin-bottom: 2vh;
@@ -431,14 +430,13 @@ header nav:last-child .second-row:hover {
 .design .wrapper div img {
   display: block;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 4.7%;
   padding-left: 7%;
 }
 
 .weDo {
-  height: 80vh;
   text-align: center;
-  padding-top: 12vh;
+  padding-top: 4vh;
   margin-bottom: 10vh;
 }
 
@@ -471,7 +469,7 @@ header nav:last-child .second-row:hover {
 .weDo .wrapper p {
   width: 52vw;
   font-family: "Roboto", sans-serif;
-  font-size: 0.97vw;
+  font-size: 0.78vw;
   color: #999999;
   display: block;
   margin: auto;
@@ -540,10 +538,10 @@ header nav:last-child .second-row:hover {
 }
 
 .weDo .wrapper .creativity .right div:nth-child(2) p {
-  padding: 0 15px 0 15px;
+  padding: 0 10% 0 3.5%;
   font-style: italic;
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 1.7;
   width: 29vw;
   margin-bottom: 2vh;
   margin-top: 2vh;
@@ -553,7 +551,6 @@ header nav:last-child .second-row:hover {
 
 .weDo .wrapper .creativity .right ::-webkit-scrollbar {
   width: 0.6vw;
-  height: 9vh;
 }
 
 .weDo .wrapper .creativity .right ::-webkit-scrollbar-track {
@@ -604,6 +601,7 @@ header nav:last-child .second-row:hover {
 
 .slides .wrapper .third {
   width: 60%;
+  padding-right: 0px;
 }
 
 .slides .wrapper .third h5 {
@@ -612,7 +610,7 @@ header nav:last-child .second-row:hover {
   color: #333333;
   font-style: normal;
   position: relative;
-  padding-left: 6.77vw;
+  padding-left: 7vw;
 }
 
 .slides .wrapper .third h5::after {
@@ -673,13 +671,6 @@ header nav:last-child .second-row:hover {
   width: 60px;
   height: 3px;
   background-color: #f38181;
-}
-
-.ourTeam .wrapper .line-red {
-  background-color: #f7adad;
-  width: 4vw;
-  height: 0.3vh;
-  margin-top: 4.02vh;
 }
 
 .ourTeam .wrapper p {
@@ -849,99 +840,109 @@ header nav:last-child .second-row:hover {
 }
 
 .wallpaper {
+  width: 100%;
   font-size: 0;
   margin-bottom: 90px;
 }
 
-.wallpaper > div {
+.wallpaper .first,
+.wallpaper .second {
   display: inline-block;
-  width: 25%;
+  width: 50%;
 }
 
-.wallpaper > div > a {
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+.wallpaper .first .left,
+.wallpaper .first .left-big,
+.wallpaper .first .right,
+.wallpaper .second .left,
+.wallpaper .second .left-big,
+.wallpaper .second .right {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  vertical-align: top;
+}
+
+.wallpaper .first .top,
+.wallpaper .first .bottom,
+.wallpaper .second .top,
+.wallpaper .second .bottom {
   width: 100%;
-  padding-top: 81%;
-  height: 0;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wallpaper .first .top:hover .overlay,
+.wallpaper .first .bottom:hover .overlay,
+.wallpaper .second .top:hover .overlay,
+.wallpaper .second .bottom:hover .overlay {
+  display: block;
+}
+
+.wallpaper .first img,
+.wallpaper .second img {
+  width: 100%;
+  height: auto;
+}
+
+.wallpaper .first .left-big,
+.wallpaper .second .left-big {
+  height: 100%;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
   position: relative;
 }
 
-.wallpaper > div > a > img {
+.wallpaper .first .left-big:hover .overlay,
+.wallpaper .second .left-big:hover .overlay {
+  display: block;
+}
+
+.wallpaper .first .overlay,
+.wallpaper .second .overlay {
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  display: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da));
+  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
 }
 
-.wallpaper .first :first-child {
-  background-image: url("images/surf.jpg");
+.wallpaper .first .overlay img,
+.wallpaper .second .overlay img {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  -webkit-transform: translate(-50%, -45%);
+          transform: translate(-50%, -45%);
+  width: auto;
 }
 
-.wallpaper .first :first-child:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/surf.jpg");
-  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/surf.jpg");
+.wallpaper .first .overlay h3,
+.wallpaper .second .overlay h3 {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  margin-top: 200px;
 }
 
-.wallpaper .first :first-child:hover div {
-  display: block;
-}
-
-.wallpaper .first :last-child {
-  background-image: url("images/bridge.jpg");
-}
-
-.wallpaper .first :last-child:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/bridge.jpg");
-  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/bridge.jpg");
-}
-
-.wallpaper .second :first-child {
-  background-image: url("images/architecture.jpg");
-}
-
-.wallpaper .second :first-child:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/architecture.jpg");
-  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/architecture.jpg");
-}
-
-.wallpaper .second :last-child {
-  background-image: url("images/architecture_2.jpg");
-}
-
-.wallpaper .second :last-child:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/architecture_2.jpg");
-  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/architecture_2.jpg");
-}
-
-.wallpaper .third > a {
-  background-image: url("images/sea.jpg");
-  padding-top: 162%;
-}
-
-.wallpaper .third > a:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/sea.jpg");
-  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/sea.jpg");
-}
-
-.wallpaper .fourth :first-child {
-  background-image: url("images/architecture_3.jpg");
-}
-
-.wallpaper .fourth :first-child:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/architecture_3.jpg");
-  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/architecture_3.jpg");
-}
-
-.wallpaper .fourth :last-child {
-  background-image: url("images/arcitecture_4.jpg");
-}
-
-.wallpaper .fourth :last-child:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290da), to(#e98b89da)), url("images/arcitecture_4.jpg");
-  background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%), url("images/arcitecture_4.jpg");
+.wallpaper .first .overlay h2,
+.wallpaper .second .overlay h2 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  padding-top: 10px;
 }
 
 .slides2 {
@@ -1137,7 +1138,7 @@ header nav:last-child .second-row:hover {
 .blog .wrapper h5 {
   font-family: "Kaushan Script";
   font-size: 1.25vw;
-  padding-top: 90px;
+  padding-top: 4.68vw;
 }
 
 .blog .wrapper h2 {
@@ -1146,7 +1147,7 @@ header nav:last-child .second-row:hover {
   font-weight: bold;
   position: relative;
   line-height: 1.6;
-  padding-bottom: 50px;
+  padding-bottom: 2.6vw;
 }
 
 .blog .wrapper h2::after {
@@ -1209,8 +1210,8 @@ header nav:last-child .second-row:hover {
   text-align: center;
   top: 41%;
   left: -2%;
-  width: 60px;
-  height: 70px;
+  width: 3.125vw;
+  height: 3.64vw;
   background: #95e1d3;
 }
 
@@ -1298,6 +1299,7 @@ footer {
 
 footer .wrapper {
   text-align: left;
+  width: 75%;
 }
 
 footer .wrapper > div {
@@ -1310,7 +1312,7 @@ footer .wrapper a {
 
 footer .wrapper .left {
   display: inline-block;
-  margin-right: 2vw;
+  margin-right: 3%;
   width: 40%;
 }
 
@@ -1390,10 +1392,11 @@ footer .wrapper .left form button {
 footer .wrapper .center {
   display: inline-block;
   width: 30%;
+  margin-left: 2%;
 }
 
 footer .wrapper .center a > div {
-  padding: 1.5vw 0 1.6vw 1.3vw;
+  padding: 1.5vw 0 1.6vw 2vw;
   display: inline-block;
   vertical-align: top;
   width: 60%;
@@ -1427,8 +1430,17 @@ footer .wrapper .center h2 {
 
 footer .wrapper .right {
   display: inline-block;
-  width: 25%;
+  width: 20%;
   margin-left: 1.45vw;
+  position: relative;
+}
+
+footer .wrapper .right .vieta {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  -webkit-transform: translateX(15%);
+          transform: translateX(15%);
 }
 
 footer .wrapper .right h3 {
@@ -1443,11 +1455,7 @@ footer .wrapper .right h4 {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   color: #333333;
-  padding-top: 1.05vw;
-}
-
-footer .wrapper .right img {
-  max-width: 4.68vw;
+  margin-top: 10%;
 }
 
 footer .wrapper .bottom p {
