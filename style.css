@@ -286,6 +286,12 @@ header nav:last-child .second-row:hover {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .about .wrapper p {
+    font-size: 1.2vw;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .about {
     margin-top: 6vh;
@@ -297,6 +303,7 @@ header nav:last-child .second-row:hover {
   .about .wrapper p {
     margin-top: 1.5vh;
     margin-bottom: 3vh;
+    font-size: 1.2vw;
   }
 }
 
@@ -463,6 +470,7 @@ header nav:last-child .second-row:hover {
   }
   .services .wrapper div p {
     width: 20vh;
+    font-size: 1.2vw;
   }
   .services .wrapper div .small-icon {
     margin-right: 1.5vw;
@@ -470,6 +478,9 @@ header nav:last-child .second-row:hover {
   }
   .horizontal-line {
     width: 70%;
+  }
+  .services .wrapper div h3 {
+    font-size: 1.2vw;
   }
 }
 
@@ -547,6 +558,18 @@ header nav:last-child .second-row:hover {
   margin: auto;
   margin-top: 4.7%;
   padding-left: 7%;
+}
+
+@media screen and (max-width: 1200px) {
+  .design .wrapper div img {
+    margin-top: 2.7%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .design .wrapper div img {
+    margin-top: 5.1%;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -713,6 +736,36 @@ header nav:last-child .second-row:hover {
 
 .weDo .wrapper .creativity .right div:nth-child(3) {
   margin: 12px 0 12px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .weDo .wrapper p {
+    font-size: 1.2vw;
+  }
+  .weDo .wrapper .creativity .right div h3 {
+    font-size: 1.2vw;
+  }
+  .weDo .wrapper .creativity .right div:nth-child(2) p {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .weDo .wrapper .creativity .left {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+  .weDo .wrapper .creativity .right {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .weDo .wrapper .creativity .right div:nth-child(2) p {
+    font-size: 1.4vw;
+    width: 64vw;
+  }
 }
 
 @media screen and (max-width: 670px) {
@@ -943,6 +996,7 @@ header nav:last-child .second-row:hover {
   background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
   min-width: 100%;
   min-height: 100%;
+  display: none;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -979,30 +1033,30 @@ header nav:last-child .second-row:hover {
   border-right: none;
 }
 
-.ourTeam .wrapper .left .member .what .container button .top-img,
-.ourTeam .wrapper .center .member .what .container button .top-img,
-.ourTeam .wrapper .right .member .what .container button .top-img {
+.ourTeam .wrapper .left .member .what .container button .top-div,
+.ourTeam .wrapper .center .member .what .container button .top-div,
+.ourTeam .wrapper .right .member .what .container button .top-div {
   display: none;
-  width: 57px;
-  height: 57px;
 }
 
-.ourTeam .wrapper .left .member .what .container button:hover .top-img,
-.ourTeam .wrapper .center .member .what .container button:hover .top-img,
-.ourTeam .wrapper .right .member .what .container button:hover .top-img {
+.ourTeam .wrapper .left .member .what .container button:hover .top-div,
+.ourTeam .wrapper .center .member .what .container button:hover .top-div,
+.ourTeam .wrapper .right .member .what .container button:hover .top-div {
   position: absolute;
+  display: inline-block;
+  background-color: #f38181;
+  width: 57px;
+  height: 57px;
   top: 0;
   left: 0;
-  display: block;
-  width: 57px;
-  height: 57px;
-  background-color: #f38181;
 }
 
-.ourTeam .wrapper .left .member .what .container button:hover .top-img img,
-.ourTeam .wrapper .center .member .what .container button:hover .top-img img,
-.ourTeam .wrapper .right .member .what .container button:hover .top-img img {
-  display: none;
+.ourTeam .wrapper .left .member .what .container button:hover .top-div .top-img,
+.ourTeam .wrapper .center .member .what .container button:hover .top-div .top-img,
+.ourTeam .wrapper .right .member .what .container button:hover .top-div .top-img {
+  display: block;
+  margin: auto;
+  margin-top: 25%;
 }
 
 .ourTeam .wrapper .left .member:hover .what,
@@ -1015,6 +1069,72 @@ header nav:last-child .second-row:hover {
   margin-right: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .ourTeam .wrapper p {
+    font-size: 1.2vw;
+  }
+  .ourTeam .wrapper .center h3 {
+    font-size: 1vw;
+  }
+  .ourTeam .wrapper .left h3 {
+    font-size: 1vw;
+  }
+  .ourTeam .wrapper .right h3 {
+    font-size: 1vw;
+  }
+  .ourTeam .wrapper .left p {
+    font-size: 0.9vw;
+  }
+  .ourTeam .wrapper .center p {
+    font-size: 0.9vw;
+  }
+  .ourTeam .wrapper .right p {
+    font-size: 0.9vw;
+  }
+  .ourTeam .wrapper .left .member .what .container {
+    margin-top: 55%;
+    margin-left: 15%;
+    width: 200px;
+    height: 57px;
+  }
+  .ourTeam .wrapper .left .member .what .container button {
+    width: 50px;
+    height: 50px;
+  }
+  .ourTeam .wrapper .left .member .what .container button:hover .top-div {
+    width: 50px;
+    height: 50px;
+  }
+  .ourTeam .wrapper .center .member .what .container {
+    margin-top: 55%;
+    margin-left: 15%;
+    width: 200px;
+    height: 57px;
+  }
+  .ourTeam .wrapper .center .member .what .container button {
+    width: 50px;
+    height: 50px;
+  }
+  .ourTeam .wrapper .center .member .what .container button:hover .top-div {
+    width: 50px;
+    height: 50px;
+  }
+  .ourTeam .wrapper .right .member .what .container {
+    margin-top: 55%;
+    margin-left: 15%;
+    width: 200px;
+    height: 57px;
+  }
+  .ourTeam .wrapper .right .member .what .container button {
+    width: 50px;
+    height: 50px;
+  }
+  .ourTeam .wrapper .right .member .what .container button:hover .top-div {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 @media screen and (max-width: 1010px) {
   .ourTeam {
     margin-top: 8vh;
@@ -1025,6 +1145,52 @@ header nav:last-child .second-row:hover {
   .ourTeam .wrapper p {
     margin-bottom: 4vh;
     margin-top: 2vh;
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ourTeam .wrapper .left .member .what .container {
+    margin-top: 55%;
+    margin-left: 10%;
+    width: 190px;
+    height: 50px;
+  }
+  .ourTeam .wrapper .left .member .what .container button {
+    width: 45px;
+    height: 45px;
+  }
+  .ourTeam .wrapper .left .member .what .container button:hover .top-div {
+    width: 45px;
+    height: 45px;
+  }
+  .ourTeam .wrapper .center .member .what .container {
+    margin-top: 55%;
+    margin-left: 10%;
+    width: 190px;
+    height: 50px;
+  }
+  .ourTeam .wrapper .center .member .what .container button {
+    width: 45px;
+    height: 45px;
+  }
+  .ourTeam .wrapper .center .member .what .container button:hover .top-div {
+    width: 45px;
+    height: 45px;
+  }
+  .ourTeam .wrapper .right .member .what .container {
+    margin-top: 55%;
+    margin-left: 10%;
+    width: 190px;
+    height: 50px;
+  }
+  .ourTeam .wrapper .right .member .what .container button {
+    width: 45px;
+    height: 45px;
+  }
+  .ourTeam .wrapper .right .member .what .container button:hover .top-div {
+    width: 45px;
+    height: 45px;
   }
 }
 
@@ -1139,6 +1305,7 @@ header nav:last-child .second-row:hover {
   .ourWorks .wrapper p {
     margin-bottom: 5vh;
     margin-top: 2vh;
+    font-size: 1.2vw;
   }
 }
 
@@ -1162,6 +1329,7 @@ header nav:last-child .second-row:hover {
 .wallpaper .second {
   display: inline-block;
   width: 50%;
+  overflow: hidden;
 }
 
 .wallpaper .first .left,
@@ -1203,11 +1371,16 @@ header nav:last-child .second-row:hover {
 
 .wallpaper .first .left-big,
 .wallpaper .second .left-big {
-  width: 50%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   cursor: pointer;
   position: relative;
+}
+
+.wallpaper .first .left-big img,
+.wallpaper .second .left-big img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  font-size: 0;
 }
 
 .wallpaper .first .left-big:hover .overlay,
@@ -1501,6 +1674,27 @@ header nav:last-child .second-row:hover {
   line-height: 1.5rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .clients .wrapper .top-row h3 {
+    font-size: 1vw;
+  }
+  .clients .wrapper .top-row .sloping {
+    font-size: 1vw;
+  }
+  .clients .wrapper .top-row p {
+    font-size: 1vw;
+  }
+  .clients .wrapper .bottom-row h3 {
+    font-size: 1vw;
+  }
+  .clients .wrapper .bottom-row .sloping {
+    font-size: 1vw;
+  }
+  .clients .wrapper .bottom-row p {
+    font-size: 1vw;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .clients .wrapper h5 {
     padding-top: 6vh;
@@ -1515,21 +1709,42 @@ header nav:last-child .second-row:hover {
     display: block;
     margin: auto;
     margin-bottom: 3%;
+    width: 100%;
   }
   .clients .wrapper .top-row .second {
     display: block;
     margin: auto;
-    margin-bottom: 2%;
+    width: 100%;
   }
   .clients .wrapper .bottom-row .first {
     display: block;
     margin: auto;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
+    width: 100%;
   }
   .clients .wrapper .bottom-row .second {
     display: block;
     margin: auto;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
+    width: 100%;
+  }
+  .clients .wrapper .top-row h3 {
+    font-size: 2vw;
+  }
+  .clients .wrapper .top-row .sloping {
+    font-size: 2vw;
+  }
+  .clients .wrapper .top-row p {
+    font-size: 2vw;
+  }
+  .clients .wrapper .bottom-row h3 {
+    font-size: 2vw;
+  }
+  .clients .wrapper .bottom-row .sloping {
+    font-size: 2vw;
+  }
+  .clients .wrapper .bottom-row p {
+    font-size: 2vw;
   }
 }
 
@@ -1652,6 +1867,16 @@ header nav:last-child .second-row:hover {
 @media screen and (max-width: 1200px) {
   .blog .wrapper h2 {
     padding-bottom: 25px;
+  }
+  .blog .wrapper article a h3 {
+    font-size: 1vw;
+  }
+  .blog .wrapper article a p {
+    font-size: 1vw;
+  }
+  .blog .wrapper article a .sticky-note {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -1961,6 +2186,42 @@ footer .wrapper .bottom p span {
   }
   footer .wrapper .right .vieta h4 {
     margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  footer .wrapper .left p {
+    font-size: 1.2vw;
+  }
+  footer .wrapper .left h3 {
+    font-size: 1.4vw;
+  }
+  footer .wrapper .left h3 span {
+    font-size: 1vw;
+  }
+  footer .wrapper .left h4 {
+    font-size: 1.1vw;
+  }
+  footer .wrapper .left form input {
+    font-size: 1vw;
+  }
+  footer .wrapper .left form button {
+    font-size: 1vw;
+  }
+  footer .wrapper .center h2 {
+    font-size: 1vw;
+  }
+  footer .wrapper .center a > div h3 {
+    font-size: 1vw;
+  }
+  footer .wrapper .center a > div p {
+    font-size: 1vw;
+  }
+  footer .wrapper .right h3 {
+    font-size: 1vw;
+  }
+  footer .wrapper .right h4 {
+    font-size: 1vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
