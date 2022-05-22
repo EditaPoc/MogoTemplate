@@ -284,11 +284,20 @@ header nav:last-child .second-row:hover {
     margin-top: 8vh;
     margin-bottom: 8vh;
   }
+  .about .wrapper a .super-team img {
+    margin-top: 5vh;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .about .wrapper p {
     font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about .wrapper a .super-team img {
+    margin-top: 3vh;
   }
 }
 
@@ -1191,6 +1200,96 @@ header nav:last-child .second-row:hover {
   .ourTeam .wrapper .right .member .what .container button:hover .top-div {
     width: 45px;
     height: 45px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .ourTeam .wrapper .left .member .what .container {
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 160px;
+    height: 40px;
+  }
+  .ourTeam .wrapper .left .member .what .container button {
+    width: 40px;
+    height: 40px;
+  }
+  .ourTeam .wrapper .left .member .what .container button:hover .top-div {
+    width: 40px;
+    height: 40px;
+  }
+  .ourTeam .wrapper .center .member .what .container {
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 160px;
+    height: 40px;
+  }
+  .ourTeam .wrapper .center .member .what .container button {
+    width: 40px;
+    height: 40px;
+  }
+  .ourTeam .wrapper .center .member .what .container button:hover .top-div {
+    width: 40px;
+    height: 40px;
+  }
+  .ourTeam .wrapper .right .member .what .container {
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 160px;
+    height: 40px;
+  }
+  .ourTeam .wrapper .right .member .what .container button {
+    width: 40px;
+    height: 40px;
+  }
+  .ourTeam .wrapper .right .member .what .container button:hover .top-div {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .ourTeam .wrapper .left .member .what .container {
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 130px;
+    height: 35px;
+  }
+  .ourTeam .wrapper .left .member .what .container button {
+    width: 35px;
+    height: 35px;
+  }
+  .ourTeam .wrapper .left .member .what .container button:hover .top-div {
+    width: 35px;
+    height: 35px;
+  }
+  .ourTeam .wrapper .center .member .what .container {
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 130px;
+    height: 35px;
+  }
+  .ourTeam .wrapper .center .member .what .container button {
+    width: 35px;
+    height: 35px;
+  }
+  .ourTeam .wrapper .center .member .what .container button:hover .top-div {
+    width: 35px;
+    height: 35px;
+  }
+  .ourTeam .wrapper .right .member .what .container {
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 130px;
+    height: 35px;
+  }
+  .ourTeam .wrapper .right .member .what .container button {
+    width: 35px;
+    height: 35px;
+  }
+  .ourTeam .wrapper .right .member .what .container button:hover .top-div {
+    width: 35px;
+    height: 35px;
   }
 }
 
