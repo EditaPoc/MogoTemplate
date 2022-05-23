@@ -270,7 +270,7 @@ header {
     p {
       width: 52vw;
       font-family: $font-roboto;
-      font-size: 0.78vw;
+      font-size: 0.9vw;
       color: #999999;
       display: block;
       margin: auto;
@@ -448,7 +448,7 @@ header {
 
       p {
         font-family: $font-roboto;
-        font-size: 0.78vw;
+        font-size: 0.9vw;
         color: #999999;
         line-height: 1.6;
         margin-bottom: 3vh;
@@ -533,10 +533,23 @@ header {
   background-image: url("./images/layer_mountains.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   height: 80vh;
   text-align: center;
   padding-top: 12vh;
   margin-bottom: 12vh;
+
+  div img {
+    display: block;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-left: 7%;
+  }
 
   .wrapper {
     h5 {
@@ -565,16 +578,10 @@ header {
       }
     }
 
-    div img {
-      display: block;
-      width: auto;
-      height: auto;
-      margin: auto;
-      margin-top: 4.7%;
-      padding-left: 7%;
-    }
+   
   }
-}
+} 
+
 
 @media screen and (max-width: 1200px) {
   .design .wrapper div img {
@@ -593,7 +600,7 @@ header {
     padding-top: 5vh;
   }
   .design .wrapper div img {
-    width: 500px;
+    width: 31rem;
     height: auto;
   }
 }
@@ -653,7 +660,7 @@ header {
     p {
       width: 52vw;
       font-family: $font-roboto;
-      font-size: 0.78vw;
+      font-size: 0.9vw;
       color: #999999;
       display: block;
       margin: auto;
@@ -664,7 +671,6 @@ header {
 
     .creativity {
       font-size: 0;
-      // height: 450px;
 
       .left {
         background-image: url("./images/photography.jpg");
@@ -720,7 +726,7 @@ header {
           p {
             padding: 0 10% 0 3.5%;
             font-style: italic;
-            font-size: 0.78vw;
+            font-size: 0.9vw;
             line-height: 1.7;
             width: 29vw;
             margin-bottom: 2vh;
@@ -791,7 +797,7 @@ header {
 @media screen and (max-width: 670px) {
   section.weDo {
     padding-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10%;
   }
   .weDo .wrapper h2 {
     padding-bottom: 25px;
@@ -885,7 +891,7 @@ header {
     width: 50%;
   }
   .slides .wrapper .third h5::after {
-    width: 30px;
+    width: 25px;
   }
   .slides .wrapper .third p {
     margin-left: 0;
@@ -896,19 +902,40 @@ header {
   .slides .wrapper .second {
     border: none;
     padding: 4px;
+    width: 50px;
   }
 }
 
 @media screen and (max-width: 840px) {
   .slides .wrapper .third {
-    width: 54%;
+    width: 45%;
   }
 
   .slides .wrapper .third h5 {
     padding-left: 9vw;
   }
+
+  .slides .wrapper div {
+    padding: 0 20px;
+  }
+
+  .slides .wrapper a {
+    padding: 0 20px;
+  }
 }
 
+@media screen and (max-width: 460px) {
+  .slides .wrapper .second {
+    width: 45px;
+    padding: 2px;
+  }
+  .slides .wrapper a {
+    padding: 0 15px;
+  }
+  .slides .wrapper .third h5::after {
+    width: 15px;
+  }
+}
 .ourTeam {
   margin-top: 12vh;
 
@@ -942,7 +969,7 @@ header {
     p {
       width: 52vw;
       font-family: $font-roboto;
-      font-size: 0.78vw;
+      font-size: 0.9vw;
       color: #999999;
       display: block;
       margin: auto;
@@ -973,7 +1000,7 @@ header {
 
       p {
         font-family: $font-roboto;
-        font-size: 0.78vw;
+        font-size: 0.9vw;
         font-weight: lighter;
         font-style: italic;
         width: 7.8vw;
@@ -1397,7 +1424,7 @@ header {
     p {
       width: 52vw;
       font-family: $font-roboto;
-      font-size: 0.78vw;
+      font-size: 0.9vw;
       color: #999999;
       display: block;
       margin: auto;
@@ -1458,7 +1485,6 @@ header {
       cursor: pointer;
       position: relative;
       box-sizing: border-box;
-      // overflow: clip;
 
       &:hover .overlay {
         display: block;
@@ -1485,44 +1511,45 @@ header {
       }
     }
 
-    .overlay {
+    
+  }
+  .overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+
+    img {
       position: absolute;
       left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      display: none;
-      background-image: linear-gradient(0deg, #f0e290da 0%, #e98b89da 100%);
-      width: 100%;
-      min-height: 100%;
-      text-align: center;
+      top: 45%;
+      transform: translate(-50%, -45%);
+      width: auto;
+    }
+    .text {
+      position: absolute;
+      left: 50%;
+      top: 55%;
+      transform: translate(-50%, -5%);
+      width: auto;
 
-      img {
-        position: absolute;
-        left: 50%;
-        top: 45%;
-        transform: translate(-50%, -45%);
-        width: auto;
+      h3 {
+        font-size: 1vw;
+        font-family: $font-montserrat;
+        color: #ffffff;
       }
-      .text {
-        position: absolute;
-        left: 50%;
-        top: 55%;
-        transform: translate(-50%, -5%);
-        width: auto;
 
-        h3 {
-          font-size: 14px;
-          font-family: $font-montserrat;
-          color: #ffffff;
-        }
-
-        h2 {
-          color: #ffffff;
-          font-family: $font-roboto;
-          font-size: 15px;
-          font-style: italic;
-          padding-top: 10px;
-        }
+      h2 {
+        color: #ffffff;
+        font-family: $font-roboto;
+        font-size: 1.1vw;
+        font-style: italic;
+        padding-top: 10px;
       }
     }
   }
@@ -1531,6 +1558,22 @@ header {
 @media screen and (max-width: 1290px) {
   .wallpaper {
     margin-bottom: 5vh;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .wallpaper .overlay .text {
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -25%);
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .wallpaper .overlay .text {
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -35%);
   }
 }
 
@@ -1619,7 +1662,6 @@ header {
 }
 @media screen and (max-width: 990px) {
   .slides2 .wrapper .second img {
-    // padding: 2px;
     width: 140px;
     height: 100px;
   }
@@ -1631,8 +1673,26 @@ header {
 
 @media screen and (max-width: 840px) {
   .slides2 .wrapper .third {
-    width: 54%;
+    width: 50%;
     line-height: 20px;
+    padding-right: 0px;
+  }
+
+  .slides2 .wrapper .third h6{
+    padding-left: 30px;
+  }
+  .slides2 .wrapper .second {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .slides2 .wrapper .third {
+    width: 45%;
+  }
+
+  .slides2 .wrapper .second {
+  width: 35%;
   }
 }
 
@@ -1715,7 +1775,7 @@ header {
       }
 
       .sloping {
-        font-size: 0.78vw;
+        font-size: 0.9vw;
         color: #333333;
         font-family: $font-roboto;
         font-style: italic;
@@ -1737,7 +1797,7 @@ header {
 
       p {
         font-family: $font-roboto;
-        font-size: 0.78vw;
+        font-size: 0.9vw;
         color: #999999;
         line-height: 1.5rem;
       }
@@ -1884,7 +1944,7 @@ header {
         }
 
         p {
-          font-size: 0.78vw;
+          font-size: 0.9vw;
           line-height: 1.5;
           font-family: $font-roboto;
           color: #999999;
@@ -1997,7 +2057,6 @@ header {
   background-size: cover;
   height: 27vh;
   width: 100%;
-  // margin-bottom: 10vh;
 
   a {
     text-decoration: none;
@@ -2072,7 +2131,7 @@ footer {
       }
 
       p {
-        font-size: 0.78vw;
+        font-size: 0.9vw;
         font-family: $font-roboto;
         color: #999999;
         margin-bottom: 3.5vh;
@@ -2096,7 +2155,7 @@ footer {
       h4 {
         display: inline-block;
         font-family: $font-roboto;
-        font-size: 0.78vw;
+        font-size: 0.9vw;
         font-style: italic;
         font-weight: lighter;
         color: #999999;
@@ -2224,13 +2283,33 @@ footer {
 
 @media screen and (max-width: 1800px) {
   footer .wrapper .center {
-    margin-left: 0;
+    margin-left: 5%;
   }
   footer .wrapper .left {
     margin-right: 0;
+    width: 35%;
   }
   footer .wrapper .right {
     width: 25%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1712px) {
+  footer .wrapper .center a div {
+    padding: 1.2vw 0 2vw 1vw;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  footer .wrapper .center a div {
+    padding: 1.2vw 0 2vw 1vw;
+  }
+}
+
+@media screen and (max-width: 1499px) {
+  footer .wrapper .center a div {
+    padding: 1vw 0 4vw 0.9vw;
   }
 }
 
@@ -2246,10 +2325,13 @@ footer {
   footer .wrapper .center {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 40%;
     text-align: center;
     margin-bottom: 3%;
   }
+
+  footer .wrapper .center a img {
+    padding-bottom: 2% ;}
 
   footer .wrapper .right {
     display: block;
@@ -2266,6 +2348,7 @@ footer {
   }
 
   footer .wrapper .right .vieta h4 {
+    font-size: 1.1vw;
     margin-top: 3%;
   }
 }
