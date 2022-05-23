@@ -1005,6 +1005,7 @@ header nav:last-child .second-row:hover {
   position: relative;
   max-width: 100%;
   height: auto;
+  cursor: pointer;
 }
 
 .ourTeam .wrapper .left .member > img,
@@ -1059,6 +1060,7 @@ header nav:last-child .second-row:hover {
   border-bottom: none;
   vertical-align: top;
   position: relative;
+  cursor: pointer;
 }
 
 .ourTeam .wrapper .left .member .what .container button:last-child,
