@@ -617,6 +617,12 @@ header nav:last-child .second-row:hover {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .design .wrapper div img {
+    width: 250px;
+  }
+}
+
 .weDo {
   text-align: center;
   padding-top: 4vh;
@@ -1356,6 +1362,12 @@ header nav:last-child .second-row:hover {
   }
 }
 
+@media screen and (max-width: 345px) {
+  .logos {
+    height: 38vh;
+  }
+}
+
 @media screen and (max-width: 1123px) {
   .logos .wrapper .logo-images {
     -webkit-transform: translate(-3%, 65%);
@@ -1699,6 +1711,16 @@ header nav:last-child .second-row:hover {
   }
   .slides2 .wrapper .second {
     width: 35%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .slides2 .wrapper .second img {
+    width: 90px;
+    height: 70px;
+  }
+  .slides2 .wrapper .third {
+    line-height: 10px;
   }
 }
 
